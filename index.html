@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calendar Demo</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700');
+
+            *,
+            *::before,
+            *::after {
+                font-family: inherit;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            html,
+            body {
+                min-height: 100%;
+            }
+
+            body {
+                display: grid;
+
+                width: 100vw;
+                height: 100vh;
+
+                padding: 1rem;
+            }
+
+            .dm-calendar-container {
+                place-self: center;
+
+                display: block;
+                width: 100%;
+                height: 100%;
+                max-width: 120ch;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dm-calendar-container">
+            <div class="dm-calendar"></div>
+        </div>
+        <script type="module" src="./src/main.js"></script>
+    </body>
+</html>

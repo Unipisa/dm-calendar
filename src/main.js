@@ -1,3 +1,5 @@
+import rawEvents from './samples/phd-courses.json'
+
 import { createCalendar } from './dm-calendar'
 
 const MIN_DATE = new Date(-8640000000000000)
@@ -11,8 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             from ??= MIN_DATE
             to ??= MAX_DATE
 
-            const res = await fetch('/samples/phd-courses.json')
-            const rawEvents = await res.json()
+            // TODO: process rawEvents...
 
             return [
                 ...rawEvents.data.flatMap(({ title, lessons }) => {

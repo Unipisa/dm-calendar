@@ -25,7 +25,7 @@ Il progetto può essere costruito con
 $ npm run build
 ```
 
-Il progetto è impostato in modo tale che vengono generati due file `./out/dm-calendar.js` e `./out/dm-calendar.css`, il file in js esporta un'unica funzione `createCalendar(mountElement, options)`.
+Il progetto è impostato in modo tale che vengono generati due file [`./out/lib/dm-calendar.js`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.js) e [`./out/lib/dm-calendar.css`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.css), il file in js esporta un'unica funzione `createCalendar(mountElement, options)`.
 
 Un esempio di utilizzo si trova in [`./src/main.js`](./src/main.js) comunque in breve basta partire da questo
 

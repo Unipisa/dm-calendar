@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "npm run build:library && npm run build:ghpages",
+        "build": "npm run build:ghpages && npm run build:library",
         "build:library": "vite build",
         "build:ghpages": "vite build --config vite-ghpages.config.js"
     },

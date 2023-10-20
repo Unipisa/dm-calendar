@@ -18,6 +18,11 @@ export default defineConfig(configEnv => {
                 entry: resolve(__dirname, 'src/dm-calendar/index.js'),
                 fileName: 'dm-calendar',
             },
+            rollupOptions: {
+                output: {
+                    assetFileNames: 'dm-calendar.[ext]',
+                },
+            },
         },
         plugins:
             configEnv.command === 'build'

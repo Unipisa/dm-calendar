@@ -4,7 +4,7 @@ export default defineConfig({
     base: '/dm-calendar/',
     build: {
         copyPublicDir: true,
-        outDir: 'out/website/',
+        outDir: 'out/',
         emptyOutDir: true,
         minify: 'terser',
     },

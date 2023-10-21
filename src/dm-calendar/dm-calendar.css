@@ -91,3 +91,9 @@
 .fc .fc-daygrid-dot-event:hover {
     background: var(--fc-highlight-color);
 }
+
+@media screen and (max-width: 512px) {
+    .fc .fc-header-toolbar > .fc-toolbar-chunk:nth-child(3) {
+        align-self: start;
+    }
+}

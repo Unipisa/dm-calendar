@@ -23,7 +23,7 @@
     --fc-non-business-color: hsla(0, 0%, 84%, 0.3);
     --fc-bg-event-color: #8fdf82;
     --fc-bg-event-opacity: 0.3;
-    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-highlight-color: rgba(0, 59, 169, 0.1);
     --fc-today-bg-color: rgba(0, 40, 113, 0.03);
     --fc-now-indicator-color: red;
 
@@ -37,6 +37,10 @@
 
 .fc .fc-timegrid-event {
     border-radius: 0.25rem;
+}
+
+.fc .fc-timegrid-event .fc-event-main {
+    padding: 3px 6px 0;
 }
 
 .fc .fc-button {
@@ -73,4 +77,17 @@
 .fc-direction-ltr .fc-daygrid-event.fc-event-start,
 .fc-direction-rtl .fc-daygrid-event.fc-event-end {
     margin-left: 4px;
+}
+
+.fc .fc-toolbar-title {
+    text-wrap: balance;
+}
+
+.fc .fc-list-day-text,
+.fc .fc-list-day-side-text {
+    text-transform: capitalize;
+}
+
+.fc .fc-daygrid-dot-event:hover {
+    background: var(--fc-highlight-color);
 }

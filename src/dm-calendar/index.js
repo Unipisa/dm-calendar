@@ -8,7 +8,7 @@ import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 
 /**
- * @param {Element} $el Elemento dentro cui montare il calendario
+ * @param {Element} $el Elemento su cui montare il calendario
  * @param {*} options
  */
 export function createCalendar($el, { queryEvents }) {

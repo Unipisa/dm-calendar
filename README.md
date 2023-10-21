@@ -25,15 +25,15 @@ Il progetto può essere costruito con
 $ npm run build
 ```
 
-Il progetto è impostato in modo tale che vengono generati due file [`./out/lib/dm-calendar.js`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.js) e [`./out/lib/dm-calendar.css`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.css), il file in js esporta un'unica funzione `createCalendar(mountElement, options)`.
+Il progetto è impostato in modo tale che vengono generati due file [`./out/lib/dm-calendar.js`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.js) e [`./out/lib/dm-calendar.css`](https://unipisa.github.io/dm-calendar/lib/dm-calendar.css), il file in js esporta un'unica funzione `createCalendar($el, options)`.
 
-Un esempio di utilizzo si trova in [`./src/main.js`](./src/main.js) comunque in breve basta partire da questo
+Un esempio di utilizzo si trova in [`./src/main.js`](./src/main.js), comunque si può partire da questo esempio
 
 ```js
 import { createCalendar } from './dm-calendar'
 
 createCalendar(document.querySelector('.dm-calendar'), {
-    async queryEvents({ from, to } = {}) {
+    async queryEvents({ from, to }) {
         ...
     },
 })
@@ -41,15 +41,41 @@ createCalendar(document.querySelector('.dm-calendar'), {
 
 La funzione `queryEvents` deve ritornare una lista di eventi con i seguenti campi
 
-- `title : string` &mdash; titolo dell'evento
+```ts
+type Event = {
+    title: string
+    start: Date | string
+    end: Date | string
 
-- `start : Date | string` &mdash; data di inizio dell'evento
+    // imposta questo evento come "tutta la giornata"
+    allDay?: boolean
+    // imposta un url per questo evento, rendendolo un link cliccabile
+    url?: string
+}
+```
 
-- `end : Date | string` &mdash; data di fine dell'evento
+### Usage: Link & Script Tag
 
-- `allDay : boolean` (opzionale) &mdash; imposta questo evento come "tutta la giornata"
+```html
+<link rel="stylesheet" href="https://unipisa.github.io/dm-calendar/lib/dm-calendar.css">
 
-- `url : string` (opzionale) &mdash; imposta un url per questo evento che rende l'evento un link a questo url
+...
+
+<!-- import using module syntax -->
+<script type="module">
+    import { createCalendar } from 'https://unipisa.github.io/dm-calendar/lib/dm-calendar.js'
+    ...
+    createCalendar($el, options)
+</script>
+
+...
+
+<!-- old style direct global import -->
+<script src="https://unipisa.github.io/dm-calendar/lib/dm-calendar.iife.js"></script>
+<script>
+    DMCalendar.createCalendar($el, options)
+</script>
+```
 
 ## Notes
 
@@ -59,8 +85,8 @@ Il cookie preso dalla sessione del browser, `jq` è usato solo per formattare il
 
 ```bash shell
 curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-phd-course?_limit=9999' -H 'cookie: connect.sid=...' \
-| jq > phd-courses.json
+| jq > src/samples/phd-courses.json
 
 curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-seminar?_limit=9999' -H 'cookie: connect.sid=...' \
-| jq > seminars.json
+| jq > src/samples/seminars.json
 ```

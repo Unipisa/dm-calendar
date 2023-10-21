@@ -14,8 +14,9 @@ export default defineConfig(configEnv => {
             emptyOutDir: true,
             minify: 'terser',
             lib: {
-                formats: ['es'],
+                formats: ['es', 'iife'],
                 entry: resolve(__dirname, 'src/dm-calendar/index.js'),
+                name: 'DMCalendar',
                 fileName: 'dm-calendar',
             },
             rollupOptions: {

@@ -7,7 +7,7 @@ const MAX_DATE = new Date(8640000000000000)
 
 document.addEventListener('DOMContentLoaded', () => {
     createCalendar(document.querySelector('.dm-calendar'), {
-        async queryEvents({ from, to } = {}) {
+        async queryEvents({ from, to }) {
             console.log('Trying to load more events', from, to)
 
             from ??= MIN_DATE

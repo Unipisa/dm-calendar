@@ -254,25 +254,25 @@
                 {
                     "date": "2023-10-05T09:00:00.000Z",
                     "duration": 120,
-                    "room": "638cd24b50cf34e03924a00c",
+                    "conferenceRoom": "638cd24b50cf34e03924a00c",
                     "_id": "6518a144391f5cd2973e3673"
                 },
                 {
                     "date": "2023-10-12T09:00:00.000Z",
                     "duration": 120,
-                    "room": "638cd24b50cf34e03924a00c",
+                    "conferenceRoom": "638cd24b50cf34e03924a00c",
                     "_id": "6518a144391f5cd2973e3674"
                 },
                 {
                     "date": "2023-10-19T09:00:00.000Z",
                     "duration": 120,
-                    "room": "638cd24b50cf34e03924a00c",
+                    "conferenceRoom": "638cd24b50cf34e03924a00c",
                     "_id": "6518a144391f5cd2973e3675"
                 },
                 {
                     "date": "2023-10-26T09:00:00.000Z",
                     "duration": 120,
-                    "room": "638cd24b50cf34e03924a00c",
+                    "conferenceRoom": "638cd24b50cf34e03924a00c",
                     "_id": "6518a144391f5cd2973e3676"
                 }
             ],

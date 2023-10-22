@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // TODO: process rawEvents...
 
             return [
-                ...rawEvents.data.flatMap(({ title, lessons }) => {
-                    return lessons.map(({ date, duration }) => ({
-                        title,
-                        start: date,
-                        end: new Date(new Date(date).getTime() + duration * 1000 * 60),
+                ...rawEvents.data.flatMap(phdCourse => {
+                    return phdCourse.lessons.map(lesson => ({
+                        title: phdCourse.title,
+                        start: lesson.date,
+                        end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
+                        extendedProps: { phdCourse, lesson },
                     }))
                 }),
             ]

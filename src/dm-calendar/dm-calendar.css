@@ -97,3 +97,9 @@
         align-self: start;
     }
 }
+
+.tippy-box .tippy-content .title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}

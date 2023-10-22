@@ -36,23 +36,23 @@ export function createCalendar($el, { queryEvents }) {
         },
         height: mediaQueryIsSmallScreen ? 'auto' : '100%',
         locale: itLocale,
-        eventDidMount: mediaQueryIsPointerFine
-            ? info => {
-                  const { phdCourse } = info.event.extendedProps
-
-                  tippy(info.el, {
-                      content: `
-                    <div class="title">${phdCourse.title}</div>
-                    <strong>Docente:</strong> ${phdCourse.lecturer.firstName} ${phdCourse.lecturer.lastName}
-                `,
-                      allowHTML: true,
-                      theme: 'light-border',
-                  })
-              }
-            : undefined,
+        eventDidMount: mediaQueryIsPointerFine ? attachTooltip : undefined,
     })
 
     calendar.render()
 
     return calendar
+}
+
+function attachTooltip({ el, event }) {
+    const { phdCourse } = event.extendedProps
+
+    tippy(el, {
+        content: `
+            <div class="title">${phdCourse.title}</div>
+            <strong>Docente:</strong> ${phdCourse.lecturer.firstName} ${phdCourse.lecturer.lastName}
+        `,
+        allowHTML: true,
+        theme: 'light-border',
+    })
 }

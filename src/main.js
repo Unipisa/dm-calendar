@@ -39,16 +39,18 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         customTooltip({ extendedProps: { phdCourse, lesson } }) {
             return `
-                <div class="title">
+                <div class="tooltip-header">
                     ${phdCourse.title}
                 </div>
-                <div>
-                    <strong>Aula:</strong>
-                    ${lesson.conferenceRoom?.name ?? '???'}
-                </div>
-                <div>
-                    <strong>Docente:</strong>
-                    ${phdCourse.lecturer?.firstName ?? '???'} ${phdCourse.lecturer?.lastName ?? '???'}
+                <div class="tooltip-content">
+                    <div>
+                        <strong>Aula:</strong>
+                        ${lesson.conferenceRoom?.name ?? '???'}
+                    </div>
+                    <div>
+                        <strong>Docente:</strong>
+                        ${phdCourse.lecturer?.firstName ?? '???'} ${phdCourse.lecturer?.lastName ?? '???'}
+                    </div>
                 </div>
             `
         },

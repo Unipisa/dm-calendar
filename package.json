@@ -23,6 +23,7 @@
         "@fullcalendar/list": "^6.1.9",
         "@fullcalendar/react": "^6.1.9",
         "@fullcalendar/timegrid": "^6.1.9",
+        "lodash": "^4.17.21",
         "tippy.js": "^6.3.7"
     }
 }

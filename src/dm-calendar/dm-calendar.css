@@ -98,6 +98,11 @@
     }
 }
 
+.tippy-box .tippy-content {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .tippy-box .tippy-content .title {
     font-size: 1.25rem;
     font-weight: 400;

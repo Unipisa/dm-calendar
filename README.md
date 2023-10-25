@@ -92,6 +92,10 @@ curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-seminar?_limit=99
     -H 'Authorization: Bearer ...' \
 | jq > src/samples/seminars.json
 
+curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-conference?_limit=9999' \
+    -H 'Authorization: Bearer ...' \
+| jq > src/samples/conferences.json
+
 curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/conference-room?_limit=9999' \
     -H 'Authorization: Bearer ...' \
 | jq > src/samples/conference-rooms.json

@@ -1,0 +1,560 @@
+{
+  "data": [
+    {
+      "_id": "6534f2c2f43eb51529f50372",
+      "title": "Workshop on “Combinatorial Algebraic Topology and Applications”",
+      "startDate": "2023-11-27T09:00:00.000Z",
+      "endDate": "2023-11-28T13:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-on-combinatorial-algebraic-topology-and-applications/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50319",
+        "name": "Aula Dini (CRM)"
+      },
+      "grants": [],
+      "notes": "\n<p>Directed graphs and simplicial complexes are ubiquitous objects in Mathematics and Science in general. Due to their simplicity and flexibility they find application in a wide range of fields: Physics, Computer Sciences, Biology, Neuroscience, Medicine, etc., encompassing and embracing most scientific domains. Extracting topological and combinatorial information is, therefore, not only interesting, but also particularly important from different perspectives.</p>\n\n\n\n<p>The workshop “Combinatorial algebraic topology and applications” concerns various topics in combinatorics and algebraic topology, as well as their applications to different fields, eg. data analysis, neural sciences and economics.</p>\n\n\n\n<p><strong>CONFIRMED SPEAKERS:</strong></p>\n\n\n\n<p>Léo Benard &#8211;<em> Aix-Marseille Université</em></p>\n\n\n\n<p>Celeste Damiani &#8211; <em>Istituto Italiano di Tecnologia</em></p>\n\n\n\n<p>&nbsp;Irakli Patchkoria &#8211; <em>University of Aberdeen</em></p>\n\n\n\n<p>&nbsp;Paolo Salvatore &#8211; <em>Università degli Studi di Roma Tor Vergata</em></p>\n\n\n\n<p>Simona Settepannella &#8211; <em>Università di Torino</em></p>\n\n\n\n<p>Viola Siconolfi &#8211; <em>Politecnico di Bari</em></p>\n\n\n\n<p>Jason Smith &#8211; <em>Nottingham Trent University</em></p>\n\n\n\n<p>Jonathan Spreer &#8211; <em>University of Sidney/TU Berlin</em></p>\n\n\n\n<p><strong>ORGANIZERS:</strong></p>\n\n\n\n<p>Luigi Caputi &#8211; <em>Università di Torino</em></p>\n\n\n\n<p>Carlo Collari &#8211; <em>Università di Pisa</em></p>\n\n\n\n<p>Paolo Lisca &#8211; <em>Università di Pisa</em></p>\n\n\n\n<p><strong>WEB SITE:</strong>&nbsp;</p>\n\n\n\n<p><a rel=\"noreferrer noopener\" href=\"http://www.crm.sns.it/event/523/index.html#title\" target=\"_blank\">http://www.crm.sns.it/event/523</a></p>\n\n\n\n<p><strong>INFO</strong></p>\n\n\n\n<p><a href=\"mailto:crm@sns.it\" target=\"_blank\" rel=\"noreferrer noopener\">crm@sns.it</a></p>\n\n\n\n<p>Centro di Ricerca Matematica</p>\n\n\n\n<p>Ennio De Giorgi</p>\n\n\n\n<p>Palazzo Puteano</p>\n\n\n\n<p>Piazza dei Cavalieri, 3 &#8211; Pisa</p>\n"
+    },
+    {
+      "_id": "6534f2c2f43eb51529f5038c",
+      "title": "LiT Workshop – Leaning into Topology",
+      "startDate": "2023-09-18T09:00:00.000Z",
+      "endDate": "2023-09-19T18:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/lit-workshop-leaning-into-topology/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c3f43eb51529f503b7",
+      "title": "Calculus of Variations & Geometric Measure Theory",
+      "startDate": "2023-06-12T08:00:00.000Z",
+      "endDate": "2023-06-16T18:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/calculus-of-variations-geometric-measure-theory/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50322",
+        "name": "Aula Magna (Polo Fibonacci)"
+      },
+      "grants": [],
+      "notes": "\n<p>The meeting will be the opportunity to celebrate the 60th birthday of Luigi Ambrosio</p>\n\n\n\n<p><em>Speakers:</em><br>Giovanni Alberti (Università di Pisa)<br>Andrea Braides (Università di Roma Tor Vergata)<br>Yann Brenier (École normale supérieure Paris)<br>Giuseppe Buttazzo (Università di Pisa)<br>Xavier Cabré (Universidad Politécnica de Cataluña)<br>Piermarco Cannarsa (Università di Roma Tor Vergata)<br>Gianni Dal Maso (SISSA Trieste)<br>Guido De Philippis (New York University)<br>Alessio Figalli (ETH Zürich)<br>Irene Fonseca (Carnegie Mellon University)<br>Massimo Fornasier (Technische Universität München)<br>Nicola Fusco (Università di Napoli Federico II)<br>Adriana Garroni (Università La Sapienza Roma)<br>Nicola Gigli (SISSA Trieste)<br>Shouhei Honda (Tohoku University)<br>Carlo Mantegazza (SNS Pisa)<br>Simon Masnou (UCBL Lyon)<br>Andrea Mondino (University of Oxford)<br>Diego Pallara (Università del Salento)<br>Giuseppe Savaré (Università Bocconi, Milano)<br>Francesco Serra Cassano (Università di Trento)<br>Dario Trevisan (Università di Pisa)</p>\n\n\n\n<p><em>Organizzatori:<br></em>Matteo Focardi<br>Valentino Magnani<br>Matteo Novaga<br>Emanuele Paolini<br>Aldo Pratelli</p>\n\n\n\n<p></p>\n"
+    },
+    {
+      "_id": "6534f2c4f43eb51529f503e2",
+      "title": "Workshop on “Combinatorial Algebraic Topology and Applications”",
+      "startDate": "2023-11-27T09:00:00.000Z",
+      "endDate": "2023-11-28T13:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-on-combinatorial-algebraic-topology-and-applications/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50319",
+        "name": "Aula Dini (CRM)"
+      },
+      "grants": [],
+      "notes": "\n<p>Directed graphs and simplicial complexes are ubiquitous objects in Mathematics and Science in general. Due to their simplicity and flexibility they find application in a wide range of fields: Physics, Computer Sciences, Biology, Neuroscience, Medicine, etc., encompassing and embracing most scientific domains. Extracting topological and combinatorial information is, therefore, not only interesting, but also particularly important from different perspectives.</p>\n\n\n\n<p>The workshop “Combinatorial algebraic topology and applications” concerns various topics in combinatorics and algebraic topology, as well as their applications to different fields, eg. data analysis, neural sciences and economics.</p>\n\n\n\n<p><strong>CONFIRMED SPEAKERS:</strong></p>\n\n\n\n<p>Léo Benard &#8211;<em> Aix-Marseille Université</em></p>\n\n\n\n<p>Celeste Damiani &#8211; <em>Istituto Italiano di Tecnologia</em></p>\n\n\n\n<p>&nbsp;Irakli Patchkoria &#8211; <em>University of Aberdeen</em></p>\n\n\n\n<p>&nbsp;Paolo Salvatore &#8211; <em>Università degli Studi di Roma Tor Vergata</em></p>\n\n\n\n<p>Simona Settepannella &#8211; <em>Università di Torino</em></p>\n\n\n\n<p>Viola Siconolfi &#8211; <em>Politecnico di Bari</em></p>\n\n\n\n<p>Jason Smith &#8211; <em>Nottingham Trent University</em></p>\n\n\n\n<p>Jonathan Spreer &#8211; <em>University of Sidney/TU Berlin</em></p>\n\n\n\n<p><strong>ORGANIZERS:</strong></p>\n\n\n\n<p>Luigi Caputi &#8211; <em>Università di Torino</em></p>\n\n\n\n<p>Carlo Collari &#8211; <em>Università di Pisa</em></p>\n\n\n\n<p>Paolo Lisca &#8211; <em>Università di Pisa</em></p>\n\n\n\n<p><strong>WEB SITE:</strong>&nbsp;</p>\n\n\n\n<p><a rel=\"noreferrer noopener\" href=\"http://www.crm.sns.it/event/523/index.html#title\" target=\"_blank\">http://www.crm.sns.it/event/523</a></p>\n\n\n\n<p><strong>INFO</strong></p>\n\n\n\n<p><a href=\"mailto:crm@sns.it\" target=\"_blank\" rel=\"noreferrer noopener\">crm@sns.it</a></p>\n\n\n\n<p>Centro di Ricerca Matematica</p>\n\n\n\n<p>Ennio De Giorgi</p>\n\n\n\n<p>Palazzo Puteano</p>\n\n\n\n<p>Piazza dei Cavalieri, 3 &#8211; Pisa</p>\n"
+    },
+    {
+      "_id": "6534f2c4f43eb51529f503e3",
+      "title": "LiT Workshop – Leaning into Topology",
+      "startDate": "2023-09-18T09:00:00.000Z",
+      "endDate": "2023-09-19T18:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/lit-workshop-leaning-into-topology/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c4f43eb51529f503e4",
+      "title": "Calculus of Variations & Geometric Measure Theory",
+      "startDate": "2023-06-12T08:00:00.000Z",
+      "endDate": "2023-06-16T18:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/calculus-of-variations-geometric-measure-theory/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50322",
+        "name": "Aula Magna (Polo Fibonacci)"
+      },
+      "grants": [],
+      "notes": "\n<p>The meeting will be the opportunity to celebrate the 60th birthday of Luigi Ambrosio</p>\n\n\n\n<p><em>Speakers:</em><br>Giovanni Alberti (Università di Pisa)<br>Andrea Braides (Università di Roma Tor Vergata)<br>Yann Brenier (École normale supérieure Paris)<br>Giuseppe Buttazzo (Università di Pisa)<br>Xavier Cabré (Universidad Politécnica de Cataluña)<br>Piermarco Cannarsa (Università di Roma Tor Vergata)<br>Gianni Dal Maso (SISSA Trieste)<br>Guido De Philippis (New York University)<br>Alessio Figalli (ETH Zürich)<br>Irene Fonseca (Carnegie Mellon University)<br>Massimo Fornasier (Technische Universität München)<br>Nicola Fusco (Università di Napoli Federico II)<br>Adriana Garroni (Università La Sapienza Roma)<br>Nicola Gigli (SISSA Trieste)<br>Shouhei Honda (Tohoku University)<br>Carlo Mantegazza (SNS Pisa)<br>Simon Masnou (UCBL Lyon)<br>Andrea Mondino (University of Oxford)<br>Diego Pallara (Università del Salento)<br>Giuseppe Savaré (Università Bocconi, Milano)<br>Francesco Serra Cassano (Università di Trento)<br>Dario Trevisan (Università di Pisa)</p>\n\n\n\n<p><em>Organizzatori:<br></em>Matteo Focardi<br>Valentino Magnani<br>Matteo Novaga<br>Emanuele Paolini<br>Aldo Pratelli</p>\n\n\n\n<p></p>\n"
+    },
+    {
+      "_id": "6534f2c6f43eb51529f503f9",
+      "title": "Incontri di geometria algebrica ed aritmetica Milano – Pisa",
+      "startDate": "2023-05-03T14:00:00.000Z",
+      "endDate": "2023-05-04T14:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/incontri-di-geometria-algebrica-ed-aritmetica-milano-pisa-3/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50343",
+        "name": "Università degli Studi di Milano La Statale, Dipartimento di Matematica"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/181/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c6f43eb51529f50406",
+      "title": "Giornata di seminari dei dottorandi e perfezionandi in Analisi",
+      "startDate": "2023-03-29T09:00:00.000Z",
+      "endDate": "2023-03-29T17:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/giornata-di-seminari-dei-dottorandi-e-perfezionandi-in-analisi/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50331",
+        "name": "Dipartimento di Matematica, Università di Pisa e SNS, Pisa"
+      },
+      "grants": [],
+      "notes": "\n<p><strong>Mercoledì 29 marzo 2023</strong></p>\n\n\n\n<p><strong>Mattina: Aula Magna – Dipartimento di Matematica</strong></p>\n\n\n\n<p>9:00-9:45</p>\n\n\n\n<p>Lorenzo Ferreri</p>\n\n\n\n<p><em>Asymptotic properties of an optimal principal eigenvalue with dirichlet boundary conditions</em></p>\n\n\n\n<p>9:45-10:30</p>\n\n\n\n<p>Michele Caselli&nbsp;</p>\n\n\n\n<p><em>Non-local approximation of minimal surfaces and existence of infinitely many minimal surfaces in 3-manifolds</em></p>\n\n\n\n<p>11:00-11:45</p>\n\n\n\n<p>Daniele Barbera</p>\n\n\n\n<p><em>L^p-L^q Maximal Regularity estimate for the Beris-Edward model in the half-plane</em></p>\n\n\n\n<p>11:45-12:30</p>\n\n\n\n<p>Mattia Freguglia</p>\n\n\n\n<p><em>Alcuni problemi riguardanti l’approssimazione diffusa del funzionale elastica</em></p>\n\n\n\n<p><strong>Pranzo (Mensa della Scuola Normale Superiore)</strong></p>\n\n\n\n<p><strong>Pomeriggio: Aula Fermi – Scuola Normale Superiore</strong></p>\n\n\n\n<p>14:00-14:45</p>\n\n\n\n<p>Claudio Afeltra</p>\n\n\n\n<p><em>TBA</em></p>\n\n\n\n<p>14:45-15:30</p>\n\n\n\n<p>Camillo Brena&nbsp;</p>\n\n\n\n<p><em>Introduzione agli spazi RCD</em></p>\n\n\n\n<p>16:00-16:45</p>\n\n\n\n<p>Nicola Picenni&nbsp;</p>\n\n\n\n<p><em>How to recognize constant functions through nonlocal functionals</em></p>\n"
+    },
+    {
+      "_id": "6534f2c6f43eb51529f50441",
+      "title": "Logical methods in Ramsey theory and related topics",
+      "startDate": "2023-07-10T08:00:00.000Z",
+      "endDate": "2023-07-11T23:00:00.000Z",
+      "SSD": [
+        "MAT/01"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/logical-methods-in-ramsey-theory-and-related-topics/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/151/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c6f43eb51529f5045d",
+      "title": "Weekend di lavoro su Calcolo delle Variazioni",
+      "startDate": "2022-11-25T03:30:00.000Z",
+      "endDate": "2022-11-27T19:00:00.000Z",
+      "SSD": [],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/weekend-di-lavoro-su-calcolo-delle-variazioni/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50334",
+        "name": "Grand Hotel Tettuccio Montecatini, Sala Conferenze"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/126/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c6f43eb51529f50468",
+      "title": "Young Researchers Meeting in Algebra and Geometry 2020",
+      "startDate": "2021-09-30T09:00:00.000Z",
+      "endDate": "2021-10-01T19:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/ricercatori-in-algebra-e-geometria-2020/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50342",
+        "name": "Palazzo della Carovana (SNS)"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c6f43eb51529f50469",
+      "title": "IHÉS Summer School “Enumerative Geometry, Physics and Representation Theory”",
+      "startDate": "2021-07-05T09:00:00.000Z",
+      "endDate": "2021-07-16T19:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/ihes-summer-school-enumerative-geometry-physics-and-representation-theory/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50335",
+        "name": "IHÉS, France"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c6f43eb51529f5046a",
+      "title": "Workshop “Calculus of Variations and Free Boundary Problems IV”",
+      "startDate": "2022-11-08T09:00:00.000Z",
+      "endDate": "2022-11-08T19:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-calculus-of-variations-and-free-boundary-problems-iv/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50330",
+        "name": "Dipartimento di Matematica"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c6f43eb51529f5046b",
+      "title": "Workshop “Regularity Theory for Free Boundary and Geometric Variational Problems II”",
+      "startDate": "2022-07-10T00:00:00.000Z",
+      "endDate": "2022-07-15T23:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-regularity-theory-for-free-boundary-and-geometric-variational-problems-ii/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50330",
+        "name": "Dipartimento di Matematica"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c7f43eb51529f5046c",
+      "title": "Workshop “Regularity Theory for Free Boundary and Geometric Variational Problems”",
+      "startDate": "2021-09-05T00:00:00.000Z",
+      "endDate": "2021-09-10T23:59:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-regularity-theory-for-free-boundary-and-geometric-variational-problems/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50336",
+        "name": "Levico Terme, Italy"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c7f43eb51529f5047a",
+      "title": "Winter School “Geometry, Algebra and Combinatorics of Moduli Spaces and Configurations V”",
+      "startDate": "2023-02-20T00:00:00.000Z",
+      "endDate": "2023-02-24T23:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/winter-school-geometry-algebra-and-combinatorics-of-moduli-spaces-and-configurations-v/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50332",
+        "name": "Dobbiaco (Toblach)"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c7f43eb51529f5047e",
+      "title": "Statistical and Computational Aspects of Dynamics",
+      "startDate": "2022-12-13T09:00:00.000Z",
+      "endDate": "2022-12-16T13:00:00.000Z",
+      "SSD": [
+        "MAT/06"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/statistical-and-computational-aspects-of-dynamics/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f5032b",
+        "name": "Centro De Giorgi (SNS)"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/135/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504a7",
+      "title": "Incontri di geometria algebrica ed aritmetica Milano – Pisa",
+      "startDate": "2022-11-16T14:00:00.000Z",
+      "endDate": "2022-11-17T14:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/incontri-di-geometria-algebrica-ed-aritmetica-milano-pisa/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/109/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504ad",
+      "title": "ProSTEAM Pisa Meeting",
+      "startDate": "2022-10-17T09:00:00.000Z",
+      "endDate": "2022-10-18T18:00:00.000Z",
+      "SSD": [
+        "MAT/04"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/6456/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50315",
+        "name": "Aula Seminari (DM)"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504b4",
+      "title": "Glimpses of Geometry: the Italian schools in the years around 1900",
+      "startDate": "2022-09-29T14:00:00.000Z",
+      "endDate": "2022-09-30T13:00:00.000Z",
+      "SSD": [
+        "MAT/04"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/glimpses-of-geometry/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "\n<p>The conference aims to collect contributions to the history of geometry in Italy at the turn of the nineteenth and twentieth centuries, both in the field of differential geometry and in that of algebraic geometry, with the aim of bringing together two areas of research generally regarded as absolutely distinct.</p>\n\n\n\n<p></p>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504b5",
+      "title": "First school & workshop PRIN on Hamiltonian and Dispersive PDEs",
+      "startDate": "2022-09-12T09:00:00.000Z",
+      "endDate": "2022-09-16T13:00:00.000Z",
+      "SSD": [
+        "MAT/05",
+        "MAT/07"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/5833/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50330",
+        "name": "Dipartimento di Matematica"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504c4",
+      "title": "ULTRAMATH 2022",
+      "startDate": "2022-06-06T08:30:00.000Z",
+      "endDate": "2022-06-11T18:30:00.000Z",
+      "SSD": [
+        "MAT/01"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/ultramath-2022/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f5033b",
+        "name": "Polo Congressuale Le Benedettine"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504c5",
+      "title": "Isoperimetric Problems",
+      "startDate": "2022-06-20T09:00:00.000Z",
+      "endDate": "2022-06-24T13:00:00.000Z",
+      "SSD": [
+        "MAT/05"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/isoperimetric-problems/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "<p class=\"mt-4\">Further information is available on the <a href=\"https://events.dm.unipi.it/event/14/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504c7",
+      "title": "La grandezza dei punti piccoli. Celebrating Francesco Amoroso’s 60th birthday",
+      "startDate": "2022-05-23T09:30:00.000Z",
+      "endDate": "2022-05-25T12:30:00.000Z",
+      "SSD": [
+        "MAT/02"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/la-grandezza-dei-punti-piccoli-celebrating-francesco-amorosos-60th-birthday/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "\n<p>Further information is available on the <a href=\"http://www.rnta.eu/Amoroso60/\" target=\"_blank\" rel=\"noreferrer noopener\">event page</a>.</p>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504ca",
+      "title": "Workshop “Theory, models and simulations in Celestial Mechanics”",
+      "startDate": "2022-06-14T08:50:00.000Z",
+      "endDate": "2022-06-16T13:00:00.000Z",
+      "SSD": [
+        "MAT/07"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/workshop-theory-models-and-simulations-in-celestial-mechanics-14-16-june-2022/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f5032e",
+        "name": "Department of Mathematics and online"
+      },
+      "grants": [],
+      "notes": "\n<p>The workshop &#8220;Theory, models and simulations in Celestial Mechanics&#8221;, organized within the project MIUR-PRIN 20178CJA2B titled &#8220;New frontiers of Celestial Mechanics: theory and applications&#8221;, will take place both in person at the Department of Mathematics of the University of Pisa (Italy), and virtually during the period 14-16 June 2022.<br></p>\n\n\n\n<p>The topics covered by the workshop are:</p>\n\n\n\n<ol><li>Constructive KAM &amp; Nekhoroshev theories,</li><li>Long-term dynamics of gravitationally interacting bodies,</li><li>Regularization theory for N-body problems,</li><li>Orbit determination with linkage methods and patched dynamics,</li><li>Stability theories for non-purely-Hamiltonian mechanical models,</li><li>Space debris dynamics,</li><li>Extra-solar planetary dynamics,</li><li>Low-energy orbits in Astrodynamics,</li><li>Preliminary orbits of asteroids and space debris,</li><li>Dynamics of close encounters with the Earth and of passages in the shadow of the Earth,</li><li>Geodynamics, tides, and their tiny effects on the orbits.</li></ol>\n\n\n\n<p>The following speakers will give an invited talk:</p>\n\n\n\n<ul><li>Vivina Barutello (Università degli Studi di Torino)</li><li>Alessandra Celletti (Università degli Studi di Roma &#8220;Tor Vergata&#8221;)</li><li>Philippe Robutel (Observatoire de Paris, IMCCE)</li><li>Shane Ross (Virginia Tech)</li></ul>\n\n\n\n<h5 class=\"wp-block-heading\">Scientific committee:</h5>\n\n\n\n<ul><li>Giulio Baù</li><li>Giovanni F. Gronchi</li><li>Massimiliano Guzzo</li><li>Ugo Locatelli</li><li>Tiziano Penati</li><li>Gabriella Pinzari</li><li>Federica Spoto</li></ul>\n\n\n\n<h5 class=\"wp-block-heading\">Organizing committee:</h5>\n\n\n\n<ul><li>Giulio Baù</li><li>Irene Cavallari</li><li>Clara Grassi</li><li>Giovanni F. Gronchi</li><li>Óscar Rodríguez del Río</li></ul>\n"
+    },
+    {
+      "_id": "6534f2c8f43eb51529f504cd",
+      "title": "DCP22 – Dynamics and Complexity Pisa 2022",
+      "startDate": "2022-05-26T09:00:00.000Z",
+      "endDate": "2022-05-28T18:00:00.000Z",
+      "SSD": [
+        "MAT/05",
+        "MAT/07",
+        "MAT/06"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/dcp22-dynamics-and-complexity-pisa-2022/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50337",
+        "name": "Museo del Calcolo, Pisa"
+      },
+      "grants": [],
+      "notes": "\n<p id=\"https://www.cissc.unipi.it/DCP/DCP22/\">For further information see the <a href=\"https://www.cissc.unipi.it/DCP/DCP22/\">website</a> of the conference. </p>\n"
+    },
+    {
+      "_id": "6534f2d0f43eb51529f5076f",
+      "title": "A journey in numerical linear algebra: a workshop in honor of Michele  Benzi’s 60th birthday",
+      "startDate": "2022-06-10T12:45:00.000Z",
+      "endDate": "2022-06-11T14:30:00.000Z",
+      "SSD": [
+        "MAT/08"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/a-journey-in-numerical-linear-algebra-a-workshop-in-honor-of-michele-benzis-60th-birthday/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "<p class=\"mt-4\">Further information is available on the <a href=\"https://events.dm.unipi.it/event/75/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2d0f43eb51529f507bf",
+      "title": "Classical Elegance: the Geometry of Algebraic varieties. A Conference in honour of Rita Pardini’s 62th birthday",
+      "startDate": "2022-06-07T14:00:00.000Z",
+      "endDate": "2022-06-10T14:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/classical-elegance-the-geometry-of-algebraic-varieties-a-conference-in-honour-of-rita-pardinis-62th-birthday/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f5033a",
+        "name": "Palazzone di Cortona"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2d0f43eb51529f507c0",
+      "title": "Geometric Representation Theory",
+      "startDate": "2022-06-27T00:00:00.000Z",
+      "endDate": "2022-07-02T23:00:00.000Z",
+      "SSD": [
+        "MAT/02",
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/geometric-representation-theory/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50344",
+        "name": "Online"
+      },
+      "grants": [],
+      "notes": "\n<p>Further information is available on the <a href=\"https://indico.ipmu.jp/event/409/\" target=\"_blank\" rel=\"noreferrer noopener\">event page</a>.</p>\n"
+    },
+    {
+      "_id": "6534f2d0f43eb51529f507c1",
+      "title": "Young Researchers Meeting in Algebra and Geometry 2022",
+      "startDate": "2022-09-28T00:00:00.000Z",
+      "endDate": "2022-09-30T23:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/young-researchers-meeting-in-algebra-and-geometry-2022/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50340",
+        "name": "SISSA - Trieste"
+      },
+      "grants": [],
+      "notes": ""
+    },
+    {
+      "_id": "6534f2d2f43eb51529f50819",
+      "title": "Geometry and Arithmetic of Moduli Spaces",
+      "startDate": "2022-07-18T09:00:00.000Z",
+      "endDate": "2022-07-22T19:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/geometry-and-arithmetic-of-moduli-spaces/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f50316",
+        "name": "Aula Magna (DM)"
+      },
+      "grants": [],
+      "notes": "<p class=\"mt-4\">Further information is available on the <a href=\"https://events.dm.unipi.it/event/15/\">event page</a> on the Indico platform.</p>\n"
+    },
+    {
+      "_id": "6534f2d2f43eb51529f5081a",
+      "title": "New Perspectives on Hyperkähler Manifolds – A Celebration of Dimitri Markushevich’s (60+2)nd Birthday",
+      "startDate": "2022-06-13T08:00:00.000Z",
+      "endDate": "2022-06-17T23:00:00.000Z",
+      "SSD": [
+        "MAT/03"
+      ],
+      "url": "",
+      "oldUrl": "https://www.dm.unipi.it/eventi/new-perspectives-on-hyperkahler-manifolds-a-celebration-of-dimitri-markushevichs-602nd-birthday/",
+      "conferenceRoom": {
+        "_id": "6534f2c1f43eb51529f5032a",
+        "name": "BellaVista Relax Hotel"
+      },
+      "grants": [],
+      "notes": "<p class='mt-4'>Further information is available on the <a href=\"https://events.dm.unipi.it/event/13/\">event page</a> on the Indico platform.</p>\n"
+    }
+  ],
+  "limit": 9999,
+  "sort": null,
+  "filter": {},
+  "total": 32
+}

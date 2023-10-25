@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "_id": "6534f2c1f43eb51529f50346",
+      "name": "colloquium",
+      "label": "175"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50347",
+      "name": "algebra-seminar",
+      "label": "3"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50348",
+      "name": "algebraic-and-arithmetic-geometry-seminar",
+      "label": "75"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50349",
+      "name": "analysis-seminar",
+      "label": "159"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034a",
+      "name": "analysis-seminar2",
+      "label": "77"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034b",
+      "name": "baby-geometri-seminar",
+      "label": "79"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034c",
+      "name": "dynamical-systems-seminar",
+      "label": "78"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034d",
+      "name": "geometry-seminar",
+      "label": "85"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034e",
+      "name": "il-teorema-piu-bello",
+      "label": "5"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f5034f",
+      "name": "logic-seminar",
+      "label": "23"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50350",
+      "name": "mathematical-physics-seminar",
+      "label": "6"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50351",
+      "name": "number-theory-seminar",
+      "label": "7"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50352",
+      "name": "probability-stochastic-analysis-statistics-seminar",
+      "label": "73"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50353",
+      "name": "seminar-on-combinatorics-and-lie-theory-and-topology",
+      "label": "33"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50354",
+      "name": "seminar-on-numerical-analysis",
+      "label": "63"
+    },
+    {
+      "_id": "6534f2c1f43eb51529f50355",
+      "name": "seminari-map",
+      "label": "21"
+    }
+  ],
+  "limit": 9999,
+  "sort": null,
+  "filter": {},
+  "total": 16
+}

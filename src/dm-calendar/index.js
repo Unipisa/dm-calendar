@@ -24,7 +24,7 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
         events: info => queryEvents({ from: info.start, to: info.end }),
         plugins: [dayGridPlugin, timeGridPlugin, listPlugin],
         initialView: mediaQueryIsSmallScreen ? 'listWeek' : 'dayGridMonth',
-        allDaySlot: false,
+        // allDaySlot: false,
         headerToolbar: {
             left: 'title',
             right: mediaQueryIsSmallScreen ? 'prev,next' : 'dayGridMonth,timeGridWeek prev,next',
@@ -49,6 +49,7 @@ function attachTooltip({ el, event, customTooltip }) {
         content: customTooltip(event),
         allowHTML: true,
         theme: 'light-border',
+        // trigger: 'click', // useful for debugging the tooltip html
         followCursor: 'horizontal',
         maxWidth: '25rem',
         plugins: [followCursor],

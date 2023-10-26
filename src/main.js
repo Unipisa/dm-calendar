@@ -1,8 +1,9 @@
 import rawSeminarCategories from './samples/seminar-categories.json'
 import rawConferenceRooms from './samples/conference-rooms.json'
-import rawEvents from './samples/phd-courses.json'
-import rawSeminarEvents from './samples/seminars.json'
-import rawConferencesEvents from './samples/conferences.json'
+
+import rawPhdCourseEvents from './samples/phd-courses.json'
+import rawSeminarEvents from './samples/seminars-dedup.json'
+import rawConferencesEvents from './samples/conferences-dedup.json'
 
 import _ from 'lodash'
 
@@ -14,7 +15,7 @@ const MAX_DATE = new Date(8640000000000000)
 const conferenceRooms = _.keyBy(rawConferenceRooms.data, '_id')
 const seminarCategories = _.keyBy(rawSeminarCategories.data, '_id')
 
-const eventPhdCourses = rawEvents.data.flatMap(phdCourse => {
+const eventPhdCourses = rawPhdCourseEvents.data.flatMap(phdCourse => {
     return phdCourse.lessons.map(lesson => ({
         title: phdCourse.title,
         start: lesson.date,
@@ -31,7 +32,7 @@ const eventPhdCourses = rawEvents.data.flatMap(phdCourse => {
     }))
 })
 
-const eventSeminars = rawSeminarEvents.data.flatMap(seminar => {
+const eventSeminars = rawSeminarEvents.data.map(seminar => {
     return {
         title: seminar.title,
         start: seminar.startDatetime,
@@ -44,7 +45,7 @@ const eventSeminars = rawSeminarEvents.data.flatMap(seminar => {
     }
 })
 
-const eventConferences = rawConferencesEvents.data.flatMap(conference => {
+const eventConferences = rawConferencesEvents.data.map(conference => {
     console.log(conference)
 
     return {

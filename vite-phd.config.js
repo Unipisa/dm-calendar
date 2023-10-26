@@ -15,7 +15,7 @@ export default defineConfig(configEnv => {
             minify: 'terser',
             lib: {
                 formats: ['iife'],
-                entry: resolve(__dirname, 'src/dm-calendar.js'),
+                entry: resolve(__dirname, 'src/dm-calendar-phd.js'),
                 name: 'DMCalendar',
                 fileName: 'dm-calendar',
             },

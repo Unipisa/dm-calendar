@@ -1,7 +1,14 @@
 import { createCalendar } from './dm-calendar'
 
 document.addEventListener('DOMContentLoaded', () => {
-    createCalendar(document.querySelector('.dm-calendar'), {
+    const $container = document.querySelector('.dm-calendar')
+    const $root = $container.attachShadow({ mode: 'open' })
+    $root.innerHTML = `
+        <style>@import "https://unipisa.github.io/dm-calendar/lib/dm-calendar.css";</style>
+        <div class="calendar"></div>
+    `
+
+    createCalendar($root.querySelector('.calendar'), {
         async queryEvents({ from, to }) {
             const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-phd-course?_limit=9999', {
                 headers: {

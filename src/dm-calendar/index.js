@@ -34,7 +34,7 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
             year: 'numeric',
             day: 'numeric',
         },
-        height: mediaQueryIsSmallScreen ? 'auto' : '100%',
+        height: 'auto',
         locale: itLocale,
         eventDidMount: customTooltip && mediaQueryIsPointerFine ? info => attachTooltip({ ...info, customTooltip }) : undefined,
     })

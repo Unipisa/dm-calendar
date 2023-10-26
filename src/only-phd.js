@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const $container = document.querySelector('.dm-calendar')
     const $root = $container.attachShadow({ mode: 'open' })
     $root.innerHTML = `
-        <style>@import "https://unipisa.github.io/dm-calendar/lib/dm-calendar.css";</style>
+        <link rel="stylesheet" href="https://unipisa.github.io/dm-calendar/lib/dm-calendar.css">
         <div class="calendar"></div>
     `
 

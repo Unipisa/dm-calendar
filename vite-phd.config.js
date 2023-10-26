@@ -10,14 +10,14 @@ export default defineConfig(configEnv => {
             port: 3000,
         },
         build: {
-            outDir: 'out/lib/',
+            outDir: 'out/phd/',
             emptyOutDir: true,
             minify: 'terser',
             lib: {
                 formats: ['iife'],
-                entry: resolve(__dirname, 'src/dm-calendar-phd.js'),
-                name: 'DMCalendarPhd',
-                fileName: 'dm-calendar-phd',
+                entry: resolve(__dirname, 'src/dm-calendar.js'),
+                name: 'DMCalendar',
+                fileName: 'dm-calendar',
             },
             rollupOptions: {
                 output: {

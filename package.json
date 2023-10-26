@@ -5,8 +5,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "npm run build:ghpages && npm run build:library",
+        "build": "npm run build:ghpages && npm run build:library:phd && npm run build:library",
         "build:library": "vite build",
+        "build:library:phd": "vite build --config vite-phd.config.js",
         "build:ghpages": "vite build --config vite-ghpages.config.js"
     },
     "author": "aziis98 <antonio.delucreziis@gmail.com>",

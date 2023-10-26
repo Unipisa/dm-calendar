@@ -5,10 +5,10 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "npm run build:ghpages && npm run build:library:phd",
+        "build": "npm run build:demo && npm run build:library && npm run build:library:only-phd",
         "build:library": "vite build",
-        "build:library:phd": "vite build --config vite-phd.config.js",
-        "build:ghpages": "vite build --config vite-ghpages.config.js"
+        "build:library:only-phd": "vite build -c only-phd.config.js",
+        "build:demo": "vite build -c demo.config.js"
     },
     "author": "aziis98 <antonio.delucreziis@gmail.com>",
     "license": "MIT",

@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-phd-course?_limit=9999', {
                 headers: {
                     Authorization: 'Bearer a185acfcfc3c87b2f8d62a6ba8325036',
-                }
+                },
             })
 
-            const {data} = await req.json()
+            const { data } = await req.json()
 
             return data.flatMap(phdCourse => {
                 return phdCourse.lessons.map(lesson => ({
@@ -45,6 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `
-        },        
+        },
     })
 })

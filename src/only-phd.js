@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     createCalendar($root.querySelector('.calendar'), {
         async queryEvents({ from, to }) {
-            const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/lessons', {
+            const req = await fetch('https://manage.dm.unipi.it/api/v0/public/lessons', {
                 mode: 'cors',
             })
 

@@ -47,7 +47,7 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
 
 function attachTooltip({ el, event, customTooltip }) {
     tippy(el, {
-        appendTo: el.shadowRoot || document.body,
+        appendTo: el.getRootNode() || document.body,
         content: customTooltip(event),
         allowHTML: true,
         theme: 'light-border',

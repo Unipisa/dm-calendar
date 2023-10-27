@@ -10,21 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     createCalendar($root.querySelector('.calendar'), {
         async queryEvents({ from, to }) {
-            const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/courses', {
+            const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/lessons', {
                 mode: 'cors',
             })
 
             const events = await req.json()
-            return events.map(phdCourseLesson => ({
-                title: phdCourseLesson.title,
-                start: phdCourseLesson.lessons.date,
-                end: new Date(new Date(phdCourseLesson.lessons.date).getTime() + phdCourseLesson.lessons.duration * 1000 * 60),
-                url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${phdCourseLesson._id}`,
+            return events.map(lesson => ({
+                title: lesson.course.title,
+                start: lesson.date,
+                end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
+                url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${lesson.course._id}`,
                 color: 'royalblue',
                 extendedProps: {
                     type: 'phdcourse-lesson',
-                    ...phdCourseLesson,
-                    conferenceRoom: phdCourseLesson.lessons.conferenceRoom?.[0],
+                    ...lesson,
                 },
             }))
         },
@@ -37,21 +36,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="tooltip-content phdcourse-lesson">
                         <div>
                             <strong>Aula:</strong>
-                            ${props.conferenceRoom?.name ?? '???'}
+                            ${props.conferenceRoom.name ?? '???'}
                         </div>
                         ${
-                            props.lecturers
+                            props.course.lecturers
                                 ? `
                                     <div>
                                         ${
-                                            props.lecturers.length === 1
+                                            props.course.lecturers.length === 1
                                                 ? `
                                                     <strong>Docente:</strong>
-                                                    ${props.lecturers[0].firstName ?? '???'} ${props.lecturers[0].lastName ?? '???'}
+                                                    ${props.course.lecturers[0].firstName ?? '???'} ${
+                                                      props.course.lecturers[0].lastName ?? '???'
+                                                  }
                                                 `
                                                 : `
                                                     <strong>Docenti:</strong>
-                                                    ${props.lecturers.map(l => `${l.firstName} ${l.lastName}`).join(', ')}
+                                                    ${props.course.lecturers.map(l => `${l.firstName} ${l.lastName}`).join(', ')}
                                                 `
                                         }
                                     </div>

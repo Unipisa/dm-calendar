@@ -46,19 +46,25 @@ document.addEventListener('DOMContentLoaded', () => {
                             <strong>Aula:</strong>
                             ${props.lesson.conferenceRoom?.name ?? '???'}
                         </div>
-                        <div>
-                            ${
-                                props.lecturers.length === 1
-                                    ? `
-                                        <strong>Docente:</strong>
-                                        ${props.lecturers[0].firstName ?? '???'} ${props.lecturers[0].lastName ?? '???'}
-                                    `
-                                    : `
-                                        <strong>Docenti:</strong>
-                                        ${props.lecturers.map(l => `${l.firstName} ${l.lastName}`).join(', ')}
-                                    `
-                            }
-                        </div>
+                        ${
+                            props.lecturers
+                                ? `
+                                    <div>
+                                        ${
+                                            props.lecturers.length === 1
+                                                ? `
+                                                    <strong>Docente:</strong>
+                                                    ${props.lecturers[0].firstName ?? '???'} ${props.lecturers[0].lastName ?? '???'}
+                                                `
+                                                : `
+                                                    <strong>Docenti:</strong>
+                                                    ${props.lecturers.map(l => `${l.firstName} ${l.lastName}`).join(', ')}
+                                                `
+                                        }
+                                    </div>
+                                `
+                                : ''
+                        }
                     </div>
                 `
         },

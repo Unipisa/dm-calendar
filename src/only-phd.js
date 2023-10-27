@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: phdCourse.title,
                     start: lesson.date,
                     end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
+                    url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${phdCourse._id}`,
                     color: 'royalblue',
                     extendedProps: {
                         type: 'phdcourse-lesson',
@@ -46,8 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${props.lesson.conferenceRoom?.name ?? '???'}
                         </div>
                         <div>
-                            <strong>Docente:</strong>
-                            ${props.lecturers?.firstName ?? '???'} ${props.lecturers?.lastName ?? '???'}
+                            ${
+                                props.lecturers.length === 1
+                                    ? `
+                                        <strong>Docente:</strong>
+                                        ${props.lecturers[0].firstName ?? '???'} ${props.lecturers[0].lastName ?? '???'}
+                                    `
+                                    : `
+                                        <strong>Docenti:</strong>
+                                        ${props.lecturers.map(l => `${l.firstName} ${l.lastName}`).join(', ')}
+                                    `
+                            }
                         </div>
                     </div>
                 `

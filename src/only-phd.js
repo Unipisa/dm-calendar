@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <div>
                             <strong>Docente:</strong>
-                            ${props.lecturer?.firstName ?? '???'} ${props.lecturer?.lastName ?? '???'}
+                            ${props.lecturers?.firstName ?? '???'} ${props.lecturers?.lastName ?? '???'}
                         </div>
                     </div>
                 `

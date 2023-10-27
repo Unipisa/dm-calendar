@@ -7,6 +7,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
 
 import tippy, { followCursor } from 'tippy.js'
+
 import 'tippy.js/dist/tippy.css'
 import 'tippy.js/themes/light-border.css'
 
@@ -46,6 +47,7 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
 
 function attachTooltip({ el, event, customTooltip }) {
     tippy(el, {
+        appendTo: el.shadowRoot || document.body,
         content: customTooltip(event),
         allowHTML: true,
         theme: 'light-border',

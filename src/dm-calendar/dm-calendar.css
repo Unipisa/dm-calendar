@@ -42,7 +42,6 @@
 }
 
 .fc .fc-timegrid-event {
-    /* border-radius: 0.25rem; */
     border-radius: 0;
 }
 
@@ -52,7 +51,6 @@
 
 .fc .fc-button {
     border: none;
-    /* border-radius: 0.25rem; */
     border-radius: 0;
 }
 
@@ -70,8 +68,7 @@
 
 .fc .fc-daygrid-event {
     color: #333;
-    /* border-radius: 0.25rem; */
-    border-radius: 0;
+    border-radius: 0.25rem;
 }
 
 /* .fc .fc-daygrid-event-dot {

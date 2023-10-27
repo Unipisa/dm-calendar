@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const events = await req.json()
             return events.map(phdCourseLesson => ({
-                title: phdCourseLesson.title,
-                start: phdCourseLesson.date,
-                end: new Date(new Date(phdCourseLesson.date).getTime() + phdCourseLesson.duration * 1000 * 60),
+                title: phdCourseLesson.lessons.title,
+                start: phdCourseLesson.lessons.date,
+                end: new Date(new Date(phdCourseLesson.lessons.date).getTime() + phdCourseLesson.lessons.duration * 1000 * 60),
                 url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${phdCourseLesson._id}`,
                 color: 'royalblue',
                 extendedProps: {

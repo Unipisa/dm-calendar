@@ -10,15 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     createCalendar($root.querySelector('.calendar'), {
         async queryEvents({ from, to }) {
-            const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-phd-course?_limit=9999', {
-                headers: {
-                    Authorization: 'Bearer a185acfcfc3c87b2f8d62a6ba8325036',
-                },
-            })
-
-            const { data } = await req.json()
-
-            return data.flatMap(phdCourse => {
+            const req = await fetch('https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/courses')
+            const events = await req.json()
+            return events.flatMap(phdCourse => {
                 return phdCourse.lessons.map(lesson => ({
                     title: phdCourse.title,
                     start: lesson.date,

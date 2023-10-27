@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 extendedProps: {
                     type: 'phdcourse-lesson',
                     ...phdCourseLesson,
-                    conferenceRoom: phdCourseLesson.lessons.conferenceRoom?.[0] ?? { name: '???' },
+                    conferenceRoom: phdCourseLesson.lessons.conferenceRoom?.[0],
                 },
             }))
         },
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="tooltip-content phdcourse-lesson">
                         <div>
                             <strong>Aula:</strong>
-                            ${props.lesson.conferenceRoom?.name ?? '???'}
+                            ${props.conferenceRoom?.name ?? '???'}
                         </div>
                         ${
                             props.lecturers

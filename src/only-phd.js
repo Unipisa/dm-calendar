@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${props.course.title}
                     </div>
                     <div class="tooltip-content phdcourse-lesson">
+                        <div class="tooltip-abstract">
+                            ${props.course.description}
+                        </div>
                         <div>
                             <strong>Aula:</strong>
                             ${props.conferenceRoom?.name ?? '???'}

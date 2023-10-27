@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
 
             const events = await req.json()
-            return events.flatMap(phdCourseLesson => ({
+            return events.map(phdCourseLesson => ({
                 title: phdCourseLesson.title,
                 start: phdCourseLesson.date,
                 end: new Date(new Date(phdCourseLesson.date).getTime() + phdCourseLesson.duration * 1000 * 60),

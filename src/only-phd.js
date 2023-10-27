@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="tooltip-content phdcourse-lesson">
                         <div>
                             <strong>Aula:</strong>
-                            ${props.conferenceRoom.name ?? '???'}
+                            ${props.conferenceRoom?.name ?? '???'}
                         </div>
                         ${
                             props.course.lecturers

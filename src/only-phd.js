@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const events = await req.json()
             return events.flatMap(phdCourse => {
+                console.log(phdCourse)
+
                 return phdCourse.lessons.map(lesson => ({
                     title: phdCourse.title,
                     start: lesson.date,

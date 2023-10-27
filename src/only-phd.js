@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (type === 'phdcourse-lesson')
                 return `
                     <div class="tooltip-header">
-                        ${props.title}
+                        ${props.course.title}
                     </div>
                     <div class="tooltip-content phdcourse-lesson">
                         <div>

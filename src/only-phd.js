@@ -15,27 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
             })
 
             const events = await req.json()
-            return events.flatMap(phdCourse => {
-                console.log(phdCourse)
-
-                return phdCourse.lessons.map(lesson => ({
-                    title: phdCourse.title,
-                    start: lesson.date,
-                    end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
-                    url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${phdCourse._id}`,
-                    color: 'royalblue',
-                    extendedProps: {
-                        type: 'phdcourse-lesson',
-                        ...phdCourse,
-                        lesson: {
-                            ...lesson,
-                            conferenceRoom: {
-                                name: 'Aula Seminari (DM)',
-                            },
-                        },
-                    },
-                }))
-            })
+            return events.flatMap(phdCourseLesson => ({
+                title: phdCourseLesson.title,
+                start: phdCourseLesson.date,
+                end: new Date(new Date(phdCourseLesson.date).getTime() + phdCourseLesson.duration * 1000 * 60),
+                url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${phdCourseLesson._id}`,
+                color: 'royalblue',
+                extendedProps: {
+                    type: 'phdcourse-lesson',
+                    ...phdCourseLesson,
+                    conferenceRoom: phdCourseLesson.lessons.conferenceRoom?.[0] ?? { name: '???' },
+                },
+            }))
         },
         customTooltip({ extendedProps: { type, ...props } }) {
             if (type === 'phdcourse-lesson')

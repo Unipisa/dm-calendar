@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         ...phdCourse,
                         lesson: {
                             ...lesson,
-                            conferenceRoom: conferenceRooms[lesson.conferenceRoom],
+                            conferenceRoom: {
+                                name: 'Aula Seminari (DM)',
+                            },
                         },
                     },
                 }))

@@ -35,6 +35,8 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
             year: 'numeric',
             day: 'numeric',
         },
+        slotMinTime: '08:00:00',
+        slotMaxTime: '20:00:00',
         height: 'auto',
         locale: itLocale,
         eventDidMount: customTooltip && mediaQueryIsPointerFine ? info => attachTooltip({ ...info, customTooltip }) : undefined,
@@ -46,8 +48,10 @@ export function createCalendar($el, { queryEvents, customTooltip }) {
 }
 
 function attachTooltip({ el, event, customTooltip }) {
+    const $root = el.getRootNode()
+
     tippy(el, {
-        appendTo: el.getRootNode() || document.body,
+        appendTo: $root === document ? document.body : $root,
         content: customTooltip(event),
         allowHTML: true,
         theme: 'light-border',

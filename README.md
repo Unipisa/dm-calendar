@@ -30,13 +30,17 @@ Il progetto è impostato in modo tale che vengono generati due file [`./out/lib/
 Un esempio di utilizzo si trova in [`./src/main.js`](./src/main.js), comunque si può partire da questo esempio
 
 ```js
-import { createCalendar } from './dm-calendar'
+import { DMCalendar } from './element.jsx'
 
-createCalendar(document.querySelector('.dm-calendar'), {
-    async queryEvents({ from, to }) {
-        ...
-    },
-})
+render(
+    <DMCalendar
+        endpoint="https://manage.dm.unipi.it/"
+        queryEvents={async queryEvents({ from, to }) {
+            ...
+        }}
+    />,
+    document.querySelector('.calendar-container')
+)
 ```
 
 La funzione `queryEvents` deve ritornare una lista di eventi con i seguenti campi
@@ -54,27 +58,14 @@ type Event = {
 }
 ```
 
-### Usage: Link & Script Tag
+### Usage: Script Tag & WebComponent
 
 ```html
-<link rel="stylesheet" href="https://unipisa.github.io/dm-calendar/lib/dm-calendar.css">
-
-...
-
-<!-- import using module syntax -->
-<script type="module">
-    import { createCalendar } from 'https://unipisa.github.io/dm-calendar/lib/dm-calendar.js'
-    ...
-    createCalendar($el, options)
-</script>
-
-...
-
-<!-- old style direct global import -->
 <script src="https://unipisa.github.io/dm-calendar/lib/dm-calendar.iife.js"></script>
-<script>
-    DMCalendar.createCalendar($el, options)
-</script>
+
+<dm-calendar
+    endpoint="https://manage.dm.unipi.it/"
+    includes="phd-courses seminar-category=ID1 seminar-category=ID2 ..."></dm-calendar>
 ```
 
 ## Notes
@@ -84,6 +75,8 @@ type Event = {
 Il cookie preso dalla sessione del browser, `jq` è usato solo per formattare il json e renderlo leggibile
 
 ```bash shell
+# Direct model data
+
 curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-phd-course?_limit=9999' -H 'Authorization: Bearer ...' \
 | jq > src/samples/phd-courses.json
 
@@ -95,4 +88,12 @@ curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/event-conference?_limit
 
 curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/conference-room?_limit=9999' -H 'Authorization: Bearer ...' \
 | jq > src/samples/conference-rooms.json
+
+# Public endpoints
+
+curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/lessons?_limit=9999' -H 'Authorization: Bearer ...' \
+| jq > src/samples/lessons.json
+
+curl -s 'https://manage.develop.lb.cs.dm.unipi.it/api/v0/public/seminars?_limit=9999' -H 'Authorization: Bearer ...' \
+| jq > src/samples/seminars.json
 ```

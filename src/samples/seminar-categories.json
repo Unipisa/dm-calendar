@@ -1,88 +1,98 @@
 {
   "data": [
     {
-      "_id": "6534f2c1f43eb51529f50346",
+      "_id": "653a98fd9c94c0880a403545",
       "name": "colloquium",
-      "label": "175"
+      "label": "colloquium",
+      "old_id": 175
     },
     {
-      "_id": "6534f2c1f43eb51529f50347",
+      "_id": "653a98fd9c94c0880a403546",
       "name": "algebra-seminar",
-      "label": "3"
+      "label": "algebra-seminar",
+      "old_id": 177
     },
     {
-      "_id": "6534f2c1f43eb51529f50348",
+      "_id": "653a98fd9c94c0880a403547",
       "name": "algebraic-and-arithmetic-geometry-seminar",
-      "label": "75"
+      "label": "algebraic-and-arithmetic-geometry-seminar",
+      "old_id": 76
     },
     {
-      "_id": "6534f2c1f43eb51529f50349",
+      "_id": "653a98fd9c94c0880a403548",
       "name": "analysis-seminar",
-      "label": "159"
+      "label": "analysis-seminar",
+      "old_id": 77
     },
     {
-      "_id": "6534f2c1f43eb51529f5034a",
-      "name": "analysis-seminar2",
-      "label": "77"
-    },
-    {
-      "_id": "6534f2c1f43eb51529f5034b",
+      "_id": "653a98fd9c94c0880a403549",
       "name": "baby-geometri-seminar",
-      "label": "79"
+      "label": "baby-geometri-seminar",
+      "old_id": 78
     },
     {
-      "_id": "6534f2c1f43eb51529f5034c",
+      "_id": "653a98fd9c94c0880a40354a",
       "name": "dynamical-systems-seminar",
-      "label": "78"
+      "label": "dynamical-systems-seminar",
+      "old_id": 79
     },
     {
-      "_id": "6534f2c1f43eb51529f5034d",
+      "_id": "653a98fd9c94c0880a40354b",
       "name": "geometry-seminar",
-      "label": "85"
+      "label": "geometry-seminar",
+      "old_id": 80
     },
     {
-      "_id": "6534f2c1f43eb51529f5034e",
+      "_id": "653a98fd9c94c0880a40354c",
       "name": "il-teorema-piu-bello",
-      "label": "5"
+      "label": "il-teorema-piu-bello",
+      "old_id": 176
     },
     {
-      "_id": "6534f2c1f43eb51529f5034f",
+      "_id": "653a98fd9c94c0880a40354d",
       "name": "logic-seminar",
-      "label": "23"
+      "label": "logic-seminar",
+      "old_id": 81
     },
     {
-      "_id": "6534f2c1f43eb51529f50350",
+      "_id": "653a98fd9c94c0880a40354e",
       "name": "mathematical-physics-seminar",
-      "label": "6"
+      "label": "mathematical-physics-seminar",
+      "old_id": 174
     },
     {
-      "_id": "6534f2c1f43eb51529f50351",
+      "_id": "653a98fd9c94c0880a40354f",
       "name": "number-theory-seminar",
-      "label": "7"
+      "label": "number-theory-seminar",
+      "old_id": 173
     },
     {
-      "_id": "6534f2c1f43eb51529f50352",
+      "_id": "653a98fd9c94c0880a403550",
       "name": "probability-stochastic-analysis-statistics-seminar",
-      "label": "73"
+      "label": "probability-stochastic-analysis-statistics-seminar",
+      "old_id": 83
     },
     {
-      "_id": "6534f2c1f43eb51529f50353",
+      "_id": "653a98fd9c94c0880a403551",
       "name": "seminar-on-combinatorics-and-lie-theory-and-topology",
-      "label": "33"
+      "label": "seminar-on-combinatorics-and-lie-theory-and-topology",
+      "old_id": 33
     },
     {
-      "_id": "6534f2c1f43eb51529f50354",
+      "_id": "653a98fd9c94c0880a403552",
       "name": "seminar-on-numerical-analysis",
-      "label": "63"
+      "label": "seminar-on-numerical-analysis",
+      "old_id": 88
     },
     {
-      "_id": "6534f2c1f43eb51529f50355",
+      "_id": "653a98fd9c94c0880a403553",
       "name": "seminari-map",
-      "label": "21"
+      "label": "seminari-map",
+      "old_id": 89
     }
   ],
   "limit": 9999,
   "sort": null,
   "filter": {},
-  "total": 16
+  "total": 15
 }

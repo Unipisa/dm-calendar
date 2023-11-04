@@ -1,0 +1,513 @@
+[
+  {
+    "date": "2023-11-05T08:59:00.000Z",
+    "duration": 60,
+    "course": {
+      "_id": "653421824bea4c38afe544b2",
+      "title": "Computational Fluid Dynamics",
+      "lecturers": []
+    }
+  },
+  {
+    "date": "2023-10-04T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653586cdc116438f0158038a",
+      "title": "Corso di Prova",
+      "description": "fiejwifwpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-11T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653586cdc116438f0158038a",
+      "title": "Corso di Prova",
+      "description": "fiejwifwpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-18T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653586cdc116438f0158038a",
+      "title": "Corso di Prova",
+      "description": "fiejwifwpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-25T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653586cdc116438f0158038a",
+      "title": "Corso di Prova",
+      "description": "fiejwifwpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        },
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-12T07:00:00.000Z",
+    "duration": 60,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653ba30de476beef55a7f904",
+      "title": "Nuovo corso di prova",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-19T07:00:00.000Z",
+    "duration": 60,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653ba30de476beef55a7f904",
+      "title": "Nuovo corso di prova",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-26T07:00:00.000Z",
+    "duration": 60,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653ba30de476beef55a7f904",
+      "title": "Nuovo corso di prova",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-02T08:00:00.000Z",
+    "duration": 60,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "653ba30de476beef55a7f904",
+      "title": "Nuovo corso di prova",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-25T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-01T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-08T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-15T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-22T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-12T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-19T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-26T07:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-02T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-09T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-16T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-23T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Minnocci"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-10-19T08:17:00.000Z",
+    "duration": 60,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-07T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-14T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-21T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-11-28T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-12-05T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2023-12-12T08:00:00.000Z",
+    "duration": 120,
+    "conferenceRoom": {
+      "name": "Aula Magna (DM)"
+    },
+    "course": {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "lecturers": [
+        {
+          "firstName": "Francesco",
+          "lastName": "Sala"
+        }
+      ]
+    }
+  }
+]

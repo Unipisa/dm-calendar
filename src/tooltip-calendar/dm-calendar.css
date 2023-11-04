@@ -49,6 +49,10 @@
     padding: 3px 6px 0;
 }
 
+.fc .fc-button-group {
+    height: 2.5rem;
+}
+
 .fc .fc-button {
     border: none;
     border-radius: 0;
@@ -148,6 +152,7 @@
 
     content: '';
     position: absolute;
+    left: 0;
     top: calc(var(--abstract-max-height) - var(--shadow-height));
     height: var(--shadow-height);
     width: 100%;

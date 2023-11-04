@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 
+import preactPlugin from '@preact/preset-vite'
+
 export default defineConfig({
     base: '/dm-calendar/',
     build: {
@@ -7,4 +9,5 @@ export default defineConfig({
         emptyOutDir: true,
         minify: 'terser',
     },
+    plugins: [preactPlugin()],
 })

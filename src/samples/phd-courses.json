@@ -3,19 +3,7 @@
     {
       "_id": "653421824bea4c38afe544b2",
       "title": "Computational Fluid Dynamics",
-      "lecturer": {
-        "_id": "64301554c78d280a2f1cc3ff",
-        "firstName": "Mattia",
-        "lastName": "de' Michieli Vitturi ",
-        "affiliations": [
-          {
-            "_id": "641b8b0b840928dc5b8da39a",
-            "name": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - Sezione di Pisa"
-          }
-        ],
-        "email": "mattia.demichielivitturi@ingv.it",
-        "staffs": []
-      },
+      "lecturer": "64301554c78d280a2f1cc3ff",
       "lessons": [
         {
           "date": "2023-11-05T08:59:00.000Z",
@@ -40,42 +28,37 @@
       },
       "createdAt": "2023-10-21T19:07:46.898Z",
       "updatedAt": "2023-10-21T19:07:46.898Z",
-      "__v": 0
+      "__v": 0,
+      "lecturers": []
     },
     {
       "_id": "653586cdc116438f0158038a",
       "title": "Corso di Prova",
-      "lecturer": {
-        "_id": "653586b2c116438f0158037f",
-        "firstName": "Francesco",
-        "lastName": "Minnocci",
-        "affiliations": [],
-        "staffs": []
-      },
+      "lecturer": "653586b2c116438f0158037f",
       "lessons": [
         {
-          "date": "2023-09-28T09:00:00.000Z",
+          "date": "2023-10-04T07:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a864c116438f015810e0"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba2a3e476beef55a7f8c6"
         },
         {
-          "date": "2023-10-12T09:00:00.000Z",
+          "date": "2023-10-11T07:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a864c116438f015810e1"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba2a3e476beef55a7f8c7"
         },
         {
-          "date": "2023-10-26T09:00:00.000Z",
+          "date": "2023-10-18T07:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a864c116438f015810e2"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba2a3e476beef55a7f8c8"
         },
         {
-          "date": "2023-11-09T10:00:00.000Z",
+          "date": "2023-10-25T07:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a864c116438f015810e3"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba2a3e476beef55a7f8c9"
         }
       ],
       "createdBy": {
@@ -93,69 +76,347 @@
         "lastName": "DE LUCREZIIS"
       },
       "createdAt": "2023-10-22T20:32:13.106Z",
-      "updatedAt": "2023-10-23T17:07:48.204Z",
-      "__v": 1
+      "updatedAt": "2023-10-27T13:45:06.200Z",
+      "__v": 3,
+      "description": "fiejwifwpfpiew",
+      "lecturers": [
+        {
+          "_id": "63822bbf7942943d6350d692",
+          "firstName": "Francesco",
+          "lastName": "Sala",
+          "affiliation": "Università di Pisa",
+          "email": "francesco.sala@unipi.it",
+          "phone": "0502213839",
+          "affiliations": [
+            {
+              "_id": "641b8b0b840928dc5b8da2e3",
+              "name": "Università di Pisa"
+            }
+          ],
+          "staffs": [
+            {
+              "_id": "63d36e74ef7ad7bc3c4c35db",
+              "qualification": "PA",
+              "isInternal": true
+            }
+          ]
+        },
+        {
+          "_id": "653586b2c116438f0158037f",
+          "firstName": "Francesco",
+          "lastName": "Minnocci",
+          "affiliations": [],
+          "staffs": []
+        }
+      ]
     },
     {
-      "_id": "65358794c116438f0158045c",
-      "title": "Un corso di prova con titolo lungo",
-      "lecturer": {
-        "_id": "63822bbf7942943d6350d695",
-        "firstName": "Emanuele",
-        "lastName": "Paolini",
-        "affiliation": "Università di Pisa",
-        "email": "emanuele.paolini@unipi.it",
-        "phone": "0502213244",
-        "affiliations": [
-          {
-            "_id": "641b8b0b840928dc5b8da2e3",
-            "name": "Università di Pisa"
-          }
-        ],
-        "staffs": [
-          {
-            "_id": "63d36e74ef7ad7bc3c4c35f5",
-            "qualification": "PA",
-            "isInternal": true
-          }
-        ]
-      },
+      "_id": "653ba30de476beef55a7f904",
+      "title": "Nuovo corso di prova",
+      "description": "",
+      "startDate": null,
+      "endDate": null,
+      "lecturers": [
+        {
+          "_id": "63822bbf7942943d6350d692",
+          "firstName": "Francesco",
+          "lastName": "Sala",
+          "affiliation": "Università di Pisa",
+          "email": "francesco.sala@unipi.it",
+          "phone": "0502213839",
+          "affiliations": [
+            {
+              "_id": "641b8b0b840928dc5b8da2e3",
+              "name": "Università di Pisa"
+            }
+          ],
+          "staffs": [
+            {
+              "_id": "63d36e74ef7ad7bc3c4c35db",
+              "qualification": "PA",
+              "isInternal": true
+            }
+          ]
+        }
+      ],
       "lessons": [
         {
-          "date": "2023-10-03T07:00:00.000Z",
-          "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581084"
+          "date": "2023-10-12T07:00:00.000Z",
+          "duration": 60,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba30de476beef55a7f905"
         },
         {
-          "date": "2023-10-10T07:00:00.000Z",
-          "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581085"
+          "date": "2023-10-19T07:00:00.000Z",
+          "duration": 60,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba30de476beef55a7f906"
         },
         {
-          "date": "2023-10-17T07:00:00.000Z",
-          "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581086"
+          "date": "2023-10-26T07:00:00.000Z",
+          "duration": 60,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba30de476beef55a7f907"
         },
         {
-          "date": "2023-10-24T07:00:00.000Z",
+          "date": "2023-11-02T08:00:00.000Z",
+          "duration": 60,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "653ba30de476beef55a7f908"
+        }
+      ],
+      "createdBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "updatedBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "createdAt": "2023-10-27T11:46:21.122Z",
+      "updatedAt": "2023-10-27T11:46:21.122Z",
+      "__v": 0
+    },
+    {
+      "_id": "6540cb6c282dff58587f431a",
+      "title": "prova bug date",
+      "description": "fewfiwjpfpiew",
+      "startDate": "2023-10-18T00:00:00.000Z",
+      "endDate": "2023-10-20T00:00:00.000Z",
+      "lecturers": [
+        {
+          "_id": "63822bbf7942943d6350d692",
+          "firstName": "Francesco",
+          "lastName": "Sala",
+          "affiliation": "Università di Pisa",
+          "email": "francesco.sala@unipi.it",
+          "phone": "0502213839",
+          "affiliations": [
+            {
+              "_id": "641b8b0b840928dc5b8da2e3",
+              "name": "Università di Pisa"
+            }
+          ],
+          "staffs": [
+            {
+              "_id": "63d36e74ef7ad7bc3c4c35db",
+              "qualification": "PA",
+              "isInternal": true
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        {
+          "date": "2023-10-25T07:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581087"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cb6c282dff58587f431b"
         },
         {
-          "date": "2023-10-31T08:00:00.000Z",
+          "date": "2023-11-01T08:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581088"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cb6c282dff58587f431c"
+        },
+        {
+          "date": "2023-11-08T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cb6c282dff58587f431d"
+        },
+        {
+          "date": "2023-11-15T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cb6c282dff58587f431e"
+        },
+        {
+          "date": "2023-11-22T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cb6c282dff58587f431f"
+        }
+      ],
+      "createdBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "updatedBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "createdAt": "2023-10-31T09:39:56.526Z",
+      "updatedAt": "2023-10-31T09:39:56.526Z",
+      "__v": 0
+    },
+    {
+      "_id": "6540cc32282dff58587f4352",
+      "title": "feiwjpfew",
+      "description": "fewfwepjfewpif",
+      "startDate": "2023-10-11T00:00:00.000Z",
+      "endDate": "2023-10-20T00:00:00.000Z",
+      "lecturers": [
+        {
+          "_id": "63d41a465594e521518192ec",
+          "firstName": "Francesco",
+          "lastName": "Minnocci",
+          "affiliation": "Università di Pisa",
+          "email": "f.minnocci@studenti.unipi.it",
+          "affiliations": [
+            {
+              "_id": "641b8b0b840928dc5b8da2e3",
+              "name": "Università di Pisa"
+            }
+          ],
+          "staffs": []
+        }
+      ],
+      "lessons": [
+        {
+          "date": "2023-10-12T07:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4353"
+        },
+        {
+          "date": "2023-10-19T07:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4354"
+        },
+        {
+          "date": "2023-10-26T07:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4355"
+        },
+        {
+          "date": "2023-11-02T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4356"
+        },
+        {
+          "date": "2023-11-09T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4357"
+        },
+        {
+          "date": "2023-11-16T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4358"
+        },
+        {
+          "date": "2023-11-23T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cc32282dff58587f4359"
+        }
+      ],
+      "createdBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "updatedBy": {
+        "_id": "63e7c0f08ea0cbf5c1c64ed8",
+        "username": "a.delucreziis@studenti.unipi.it",
+        "email": "a.delucreziis@studenti.unipi.it",
+        "firstName": "ANTONIO",
+        "lastName": "DE LUCREZIIS"
+      },
+      "createdAt": "2023-10-31T09:43:14.830Z",
+      "updatedAt": "2023-10-31T09:43:14.830Z",
+      "__v": 0
+    },
+    {
+      "_id": "6540cd85282dff58587f439c",
+      "title": "Jdjdjdndjdj ipad",
+      "description": "",
+      "startDate": "2023-10-11T00:00:00.000Z",
+      "endDate": "2023-11-16T00:00:00.000Z",
+      "lecturers": [
+        {
+          "_id": "63822bbf7942943d6350d692",
+          "firstName": "Francesco",
+          "lastName": "Sala",
+          "affiliation": "Università di Pisa",
+          "email": "francesco.sala@unipi.it",
+          "phone": "0502213839",
+          "affiliations": [
+            {
+              "_id": "641b8b0b840928dc5b8da2e3",
+              "name": "Università di Pisa"
+            }
+          ],
+          "staffs": [
+            {
+              "_id": "63d36e74ef7ad7bc3c4c35db",
+              "qualification": "PA",
+              "isInternal": true
+            }
+          ]
+        }
+      ],
+      "lessons": [
+        {
+          "date": "2023-10-19T08:17:00.000Z",
+          "duration": 60,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540e26e282dff58587f4420"
         },
         {
           "date": "2023-11-07T08:00:00.000Z",
           "duration": 120,
-          "conferenceRoom": "6534f2c1f43eb51529f50316",
-          "_id": "6536a7d9c116438f01581089"
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f439e"
+        },
+        {
+          "date": "2023-11-14T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f439f"
+        },
+        {
+          "date": "2023-11-21T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f43a0"
+        },
+        {
+          "date": "2023-11-28T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f43a1"
+        },
+        {
+          "date": "2023-12-05T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f43a2"
+        },
+        {
+          "date": "2023-12-12T08:00:00.000Z",
+          "duration": 120,
+          "conferenceRoom": "653a81deb675666aca4ca5f5",
+          "_id": "6540cd85282dff58587f43a3"
         }
       ],
       "createdBy": {
@@ -172,93 +433,13 @@
         "firstName": "ANTONIO",
         "lastName": "DE LUCREZIIS"
       },
-      "createdAt": "2023-10-22T20:35:32.039Z",
-      "updatedAt": "2023-10-23T17:05:29.543Z",
+      "createdAt": "2023-10-31T09:48:53.925Z",
+      "updatedAt": "2023-10-31T11:18:06.877Z",
       "__v": 2
-    },
-    {
-      "_id": "6536a815c116438f015810a8",
-      "title": "Un altro corso di prova con titolo lungo",
-      "lecturer": {
-        "_id": "63822bbf7942943d6350d692",
-        "firstName": "Francesco",
-        "lastName": "Sala",
-        "affiliation": "Università di Pisa",
-        "email": "francesco.sala@unipi.it",
-        "phone": "0502213839",
-        "affiliations": [
-          {
-            "_id": "641b8b0b840928dc5b8da2e3",
-            "name": "Università di Pisa"
-          }
-        ],
-        "staffs": [
-          {
-            "_id": "63d36e74ef7ad7bc3c4c35db",
-            "qualification": "PA",
-            "isInternal": true
-          }
-        ]
-      },
-      "lessons": [
-        {
-          "date": "2023-10-06T07:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810a9"
-        },
-        {
-          "date": "2023-10-20T07:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810aa"
-        },
-        {
-          "date": "2023-11-03T08:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810ab"
-        },
-        {
-          "date": "2023-11-17T08:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810ac"
-        },
-        {
-          "date": "2023-12-01T08:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810ad"
-        },
-        {
-          "date": "2023-12-15T08:00:00.000Z",
-          "duration": 180,
-          "conferenceRoom": "6534f2c1f43eb51529f50318",
-          "_id": "6536a815c116438f015810ae"
-        }
-      ],
-      "createdBy": {
-        "_id": "63e7c0f08ea0cbf5c1c64ed8",
-        "username": "a.delucreziis@studenti.unipi.it",
-        "email": "a.delucreziis@studenti.unipi.it",
-        "firstName": "ANTONIO",
-        "lastName": "DE LUCREZIIS"
-      },
-      "updatedBy": {
-        "_id": "63e7c0f08ea0cbf5c1c64ed8",
-        "username": "a.delucreziis@studenti.unipi.it",
-        "email": "a.delucreziis@studenti.unipi.it",
-        "firstName": "ANTONIO",
-        "lastName": "DE LUCREZIIS"
-      },
-      "createdAt": "2023-10-23T17:06:29.971Z",
-      "updatedAt": "2023-10-23T17:06:29.971Z",
-      "__v": 0
     }
   ],
   "limit": 9999,
   "sort": null,
   "filter": {},
-  "total": 4
+  "total": 6
 }

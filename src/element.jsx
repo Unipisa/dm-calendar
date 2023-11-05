@@ -126,7 +126,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
             start: seminar.startDatetime,
             end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
             // url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${seminar.course._id}`,
-            color: 'royalblue',
+            color: 'green',
             extendedProps: {
                 type: 'seminar',
                 ...seminar,

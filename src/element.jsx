@@ -115,6 +115,7 @@ const getLessons = async ({ endpoint, from, to }) => {
 // FIX: Per ora le query non supportano "?from=<from>&to=<to>" quindi facciamo solo una richiesta e poi la cache-iamo
 let cachedSeminars = null
 
+// FIX: Per ora scarichiamo tutti i seminari con l'endpoint "/public/seminars" e li filtriamo lato client per categoria
 const getSeminarCategory = async ({ endpoint, category, from, to }) => {
     if (!cachedSeminars) {
         const req = await fetch(endpoint + '/api/v0/public/seminars', { mode: 'cors' })
@@ -133,7 +134,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
         }))
     }
 
-    return cachedSeminars.filter(seminar => seminar.extendedProps.category === category)
+    return cachedSeminars.filter(seminar => seminar.extendedProps.category._id === category)
 }
 
 export const DMCalendar = ({ endpoint, includes, queryEvents }) => {

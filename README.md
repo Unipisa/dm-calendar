@@ -61,11 +61,30 @@ type Event = {
 ### Usage: Script Tag & WebComponent
 
 ```html
-<script src="https://unipisa.github.io/dm-calendar/lib/dm-calendar.iife.js"></script>
+<script src="https://unipisa.github.io/dm-calendar/lib/dm-calendar-element.iife.js"></script>
 
 <dm-calendar
     endpoint="https://manage.dm.unipi.it/"
     includes="phd-courses seminar-category=ID1 seminar-category=ID2 ..."></dm-calendar>
+```
+
+### Usage: WordPress Shortcode
+
+```php
+<?php
+
+wp_register_script('dm-calendar', 'https://unipisa.github.io/dm-calendar/lib/dm-calendar-element.iife.js');
+
+function calendar_shortcode( $atts ) {
+    wp_enqueue_script('dm-calendar');
+    return <<<EOF
+    <dm-calendar
+        endpoint="https://manage.dm.unipi.it"
+        includes="phd-courses seminar-category=ID1 ..."></dm-calendar>
+    EOF;
+}
+
+add_shortcode('event_calendar', 'calendar_shortcode');
 ```
 
 ## Notes

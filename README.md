@@ -68,6 +68,24 @@ type Event = {
     includes="phd-courses seminar-category=ID1 seminar-category=ID2 ..."></dm-calendar>
 ```
 
+**WebComponent Attributes.**
+
+- `endpoint` &mdash; [https://github.com/Unipisa/dm-manager](dm-manager) instance to use.
+
+- `includes` &mdash; is a string in a special syntax to tell the component which event sources to use. For now the available ones are
+
+    - `phd-courses` &mdash; include all lessons for phd courses
+    
+    - `seminar-category=UUID` &mdash; includes all events for a specific seminar category (ciclo di seminari)
+    
+    _TODO:_
+
+    - `seminars` &mdash; includes all seminars
+    
+    - `seminar-category=LABEL` &mdash; includes all seminar for a specific category using its label instead of uuid
+    
+
+
 ### Usage: WordPress Shortcode
 
 ```php

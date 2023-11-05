@@ -134,7 +134,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
         }))
     }
 
-    return cachedSeminars.filter(event => event.extendedProps.category === category)
+    return cachedSeminars.filter(event => event.extendedProps.category._id === category)
 }
 
 export const DMCalendar = ({ endpoint, includes, queryEvents }) => {

@@ -168,6 +168,8 @@ export const DMCalendar = ({ endpoint, includes, queryEvents }) => {
 
                             throw new Error(`invalid include syntax "${part}"`)
                         }
+
+                        return events
                     })
                 }
             />

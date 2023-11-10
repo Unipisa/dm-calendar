@@ -117,7 +117,9 @@ let cachedSeminars = null
 
 // FIX: Per ora scarichiamo tutti i seminari con l'endpoint "/public/seminars" e li filtriamo lato client per categoria
 const getSeminarCategory = async ({ endpoint, category, from, to }) => {
-    const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from}&to=${to}`, { mode: 'cors' })
+    const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from.toISOString()}&to=${to.toISOString()}`, {
+        mode: 'cors',
+    })
     const events = await req.json()
     return events
         .map(seminar => ({

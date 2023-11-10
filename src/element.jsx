@@ -117,11 +117,10 @@ let cachedSeminars = null
 
 // FIX: Per ora scarichiamo tutti i seminari con l'endpoint "/public/seminars" e li filtriamo lato client per categoria
 const getSeminarCategory = async ({ endpoint, category, from, to }) => {
-    if (!cachedSeminars) {
-        const req = await fetch(endpoint + '/api/v0/public/seminars', { mode: 'cors' })
-        const events = await req.json()
-
-        cachedSeminars = events.map(seminar => ({
+    const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from}&to=${to}`, { mode: 'cors' })
+    const events = await req.json()
+    return events
+        .map(seminar => ({
             title: seminar.title,
             start: seminar.startDatetime,
             end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
@@ -132,9 +131,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
                 ...seminar,
             },
         }))
-    }
-
-    return cachedSeminars.filter(event => event.extendedProps?.category?._id === category)
+        .filter(event => event.extendedProps?.category?._id === category)
 }
 
 export const DMCalendar = ({ endpoint, includes, queryEvents }) => {

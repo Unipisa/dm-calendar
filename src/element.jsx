@@ -112,16 +112,22 @@ const getLessons = async ({ endpoint, from, to }) => {
     return cachedLessons
 }
 
-// FIX: Per ora le query non supportano "?from=<from>&to=<to>" quindi facciamo solo una richiesta e poi la cache-iamo
-let cachedSeminars = null
+const cachedSeminars = {}
 
 // FIX: Per ora scarichiamo tutti i seminari con l'endpoint "/public/seminars" e li filtriamo lato client per categoria
 const getSeminarCategory = async ({ endpoint, category, from, to }) => {
-    const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from.toISOString()}&to=${to.toISOString()}`, {
-        mode: 'cors',
-    })
-    const events = await req.json()
-    return events
+    const cacheKey = `${from.toISOString()} - ${to.toISOString()}`
+
+    let seminarsInRange = cachedSeminars[cacheKey]
+    if (!seminarsInRange) {
+        const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from.toISOString()}&to=${to.toISOString()}`, {
+            mode: 'cors',
+        })
+        seminarsInRange = await req.json()
+        cachedSeminars[cacheKey] = seminarsInRange
+    }
+
+    return seminarsInRange
         .map(seminar => ({
             title: seminar.title,
             start: seminar.startDatetime,

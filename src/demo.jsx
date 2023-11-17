@@ -51,7 +51,7 @@ const eventSeminars = rawSeminarEvents.data.map(seminar => {
 
 render(
     <DMCalendar
-        endpoint="https://manage.develop.lb.cs.dm.unipi.it/"
+        endpoint="https://manage.dm.unipi.it/"
         includes="phd-courses"
         queryEvents={async ({}) => {
             return [

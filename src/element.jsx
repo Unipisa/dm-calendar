@@ -94,7 +94,7 @@ let cachedLessons = null
 const getLessons = async ({ endpoint, from, to }) => {
     if (!cachedLessons) {
         const req = await fetch(endpoint + '/api/v0/public/lessons', { mode: 'cors' })
-        const events = await req.json()
+        const events = await req.json().data
 
         cachedLessons = events.map(lesson => ({
             title: lesson.course.title,
@@ -123,7 +123,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
         const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from.toISOString()}&to=${to.toISOString()}`, {
             mode: 'cors',
         })
-        seminarsInRange = await req.json()
+        seminarsInRange = await req.json().data
         cachedSeminars[cacheKey] = seminarsInRange
     }
 

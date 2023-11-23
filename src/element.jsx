@@ -132,7 +132,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
             title: seminar.title,
             start: seminar.startDatetime,
             end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
-            url: 'https://www.dm.unipi.it/seminario/?id=${seminar._id}',
+            url: `https://www.dm.unipi.it/seminario/?id=${seminar._id}`,
             color: 'green',
             extendedProps: {
                 type: 'seminar',

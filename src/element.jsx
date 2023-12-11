@@ -114,6 +114,15 @@ const getLessons = async ({ endpoint, from, to }) => {
 
 const cachedSeminars = {}
 
+/**
+ * @param {string} category label della categoria
+ * @returns {string} colore personalizzato associato alla categoria
+ */
+const getSeminarCategoryColor = category =>
+    ({
+        ['colloquium']: 'orange',
+    }[category] ?? 'green')
+
 // FIX: Per ora scarichiamo tutti i seminari con l'endpoint "/public/seminars" e li filtriamo lato client per categoria
 const getSeminarCategory = async ({ endpoint, category, from, to }) => {
     const cacheKey = `${from.toISOString()} - ${to.toISOString()}`
@@ -128,18 +137,18 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
     }
 
     return seminarsInRange
+        .filter(seminar => seminar.category.label === category)
         .map(seminar => ({
             title: seminar.title,
             start: seminar.startDatetime,
             end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
             url: `https://www.dm.unipi.it/seminario/?id=${seminar._id}`,
-            color: 'green',
+            color: getSeminarCategoryColor(seminar.category.label),
             extendedProps: {
                 type: 'seminar',
                 ...seminar,
             },
         }))
-        .filter(event => event.extendedProps?.category?._id === category)
 }
 
 export const DMCalendar = ({ endpoint, includes, queryEvents }) => {
@@ -167,7 +176,7 @@ export const DMCalendar = ({ endpoint, includes, queryEvents }) => {
                                 continue
                             }
                             if ((m = part.match(/seminar-category=(?<category>\S+)/))) {
-                                events.push(...(await getSeminarCategory({ endpoint, ...m.groups, from, to })))
+                                events.push(...(await getSeminarCategory({ endpoint, category: m.groups.category, from, to })))
                                 continue
                             }
 

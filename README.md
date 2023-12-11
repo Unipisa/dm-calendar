@@ -88,6 +88,15 @@ type Event = {
 
 ### Usage: WordPress Shortcode
 
+The following is an example of how to use the calendar in a WordPress page using a shortcode
+
+```html
+<!-- WordPress Shortcode -->
+[events_calendar includes="phd-courses seminar-category=ID1 ..."]
+```
+
+And the following is an example of how to register the shortcode in a WordPress theme
+
 ```php
 <?php
 
@@ -95,14 +104,19 @@ wp_register_script('dm-calendar', 'https://unipisa.github.io/dm-calendar/lib/dm-
 
 function calendar_shortcode( $atts ) {
     wp_enqueue_script('dm-calendar');
+
+    if (empty($atts['includes'])) {
+        $atts['includes'] = 'phd-courses';
+    }
+
     return <<<EOF
     <dm-calendar
         endpoint="https://manage.dm.unipi.it"
-        includes="phd-courses seminar-category=ID1 ..."></dm-calendar>
+        includes="{$atts['includes']}"></dm-calendar>
     EOF;
 }
 
-add_shortcode('event_calendar', 'calendar_shortcode');
+add_shortcode('events_calendar', 'calendar_shortcode');
 ```
 
 ## Notes

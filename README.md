@@ -76,13 +76,11 @@ type Event = {
 
     - `phd-courses` &mdash; include all lessons for phd courses
     
-    - `seminar-category=UUID` &mdash; includes all events for a specific seminar category (ciclo di seminari)
+    - `seminar-category=LABEL` &mdash; includes all seminar for a specific category using its unique wordpress label
     
     _TODO:_
 
     - `seminars` &mdash; includes all seminars
-    
-    - `seminar-category=LABEL` &mdash; includes all seminar for a specific category using its label instead of uuid
     
 
 
@@ -92,7 +90,7 @@ The following is an example of how to use the calendar in a WordPress page using
 
 ```html
 <!-- WordPress Shortcode -->
-[events_calendar includes="phd-courses seminar-category=ID1 ..."]
+[event_calendar includes="phd-courses seminar-category=ID1 ..."]
 ```
 
 And the following is an example of how to register the shortcode in a WordPress theme
@@ -105,18 +103,16 @@ wp_register_script('dm-calendar', 'https://unipisa.github.io/dm-calendar/lib/dm-
 function calendar_shortcode( $atts ) {
     wp_enqueue_script('dm-calendar');
 
-    if (empty($atts['includes'])) {
-        $atts['includes'] = 'phd-courses';
-    }
+    $includes = !empty($atts['includes']) ? $atts['includes'] : 'phd-courses seminar-category=pysanum seminar-category=baby-geometri-seminar seminar-category=seminari-map';
 
     return <<<EOF
     <dm-calendar
         endpoint="https://manage.dm.unipi.it"
-        includes="{$atts['includes']}"></dm-calendar>
+        includes="{$includes}"></dm-calendar>
     EOF;
 }
 
-add_shortcode('events_calendar', 'calendar_shortcode');
+add_shortcode('event_calendar', 'calendar_shortcode');
 ```
 
 ## Notes

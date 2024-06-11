@@ -129,7 +129,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
 
     let seminarsInRange = cachedSeminars[cacheKey]
     if (!seminarsInRange) {
-        const req = await fetch(endpoint + `/api/v0/public/seminars?from=${from.toISOString()}&to=${to.toISOString()}`, {
+        const req = await fetch(endpoint + `/api/v0/public/seminars?_limit=500&_sort=startDateTime&from=${from.toISOString()}&to=${to.toISOString()}`, {
             mode: 'cors',
         })
         seminarsInRange = (await req.json()).data

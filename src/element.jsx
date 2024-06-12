@@ -137,7 +137,7 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
     }
 
     return seminarsInRange
-        .filter(seminar => seminar.category.label === category)
+        .filter(seminar => seminar?.category?.label === category)
         .map(seminar => ({
             title: seminar.title,
             start: seminar.startDatetime,

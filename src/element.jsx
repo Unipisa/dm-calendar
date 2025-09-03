@@ -88,15 +88,22 @@ const CalendarEventTooltip = ({ event }) => {
     return <EventTooltip {...props} />
 }
 
-// FIX: Per ora le query non supportano "?from=<from>&to=<to>" quindi facciamo solo una richiesta e poi la cache-iamo
-let cachedLessons = null
+const cachedLessons = {}
 
-const getLessons = async ({ endpoint, from, to }) => {
-    if (!cachedLessons) {
-        const req = await fetch(endpoint + '/api/v0/public/lessons', { mode: 'cors' })
+const getLessons = async ({ endpoint, from, to, phd }) => {
+    const cacheKey = `${from.toISOString()} - ${to.toISOString()} - ${phd || 'all'}`
+    
+    let lessonsInRange = cachedLessons[cacheKey]
+    if (!lessonsInRange) {
+        let url = `${endpoint}/api/v0/public/lessons?from=${from.toISOString()}&to=${to.toISOString()}`
+        if (phd) {
+            url += `&phd=${phd}`
+        }
+        
+        const req = await fetch(url, { mode: 'cors' })
         const events = (await req.json()).data
-
-        cachedLessons = events.map(lesson => ({
+        
+        lessonsInRange = events.map(lesson => ({
             title: lesson.course.title,
             start: lesson.date,
             end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
@@ -107,9 +114,11 @@ const getLessons = async ({ endpoint, from, to }) => {
                 ...lesson,
             },
         }))
+        
+        cachedLessons[cacheKey] = lessonsInRange
     }
-
-    return cachedLessons
+    
+    return lessonsInRange
 }
 
 const cachedSeminars = {}
@@ -168,8 +177,8 @@ export const DMCalendar = ({ endpoint, includes, queryEvents }) => {
 
                         for (const part of includeParts) {
                             let m
-                            if ((m = part.match(/phd-courses/))) {
-                                events.push(...(await getLessons({ endpoint, from, to })))
+                            if ((m = part.match(/phd-courses(?:=(?<phd>\S+))?/))) {
+                                events.push(...(await getLessons({ endpoint, from, to, phd: m.groups?.phd })))
                                 continue
                             }
                             if ((m = part.match(/seminars/))) {

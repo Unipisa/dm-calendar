@@ -102,12 +102,14 @@ const getLessons = async ({ endpoint, from, to, phd }) => {
         
         const req = await fetch(url, { mode: 'cors' })
         const events = (await req.json()).data
+
+        const basePath = window.location.pathname.replace(/\/calendar.*$/, '')
         
         lessonsInRange = events.map(lesson => ({
             title: lesson.course.title,
             start: lesson.date,
             end: new Date(new Date(lesson.date).getTime() + lesson.duration * 1000 * 60),
-            url: `https://www.dm.unipi.it/phd/phd-course-details/?phd_course_id=${lesson.course._id}`,
+            url: `${window.location.origin}${basePath}/phd-course-details/?phd_course_id=${lesson.course._id}`,
             color: 'royalblue',
             extendedProps: {
                 type: 'phdcourse-lesson',

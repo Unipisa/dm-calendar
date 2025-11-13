@@ -37,7 +37,11 @@ const tooltipVariants = {
                 <div class="tooltip-abstract">{props.abstract}</div>
                 {props.category && (
                     <div>
-                        <strong>Ciclo di Seminari:</strong> {props.category?.name ?? '???'}
+                        <strong>Ciclo di Seminari:</strong> {
+                            Array.isArray(props.category) 
+                                ? props.category.map(cat => cat.name).join(', ')
+                                : props.category?.name ?? '???'
+                        }
                     </div>
                 )}
                 <div>
@@ -148,19 +152,27 @@ const getSeminarCategory = async ({ endpoint, category, from, to }) => {
     }
 
     return seminarsInRange
-        .filter(seminar => seminar?.category?.label === category)
-        .map(seminar => ({
-            title: seminar.title,
-            start: seminar.startDatetime,
-            end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
-            // url: `https://www.dm.unipi.it/seminario/?id=${seminar._id}`,
-            url: `https://www.dm.unipi.it/en/seminar/?id=${seminar._id}`,
-            color: getSeminarCategoryColor(seminar.category.label),
-            extendedProps: {
-                type: 'seminar',
-                ...seminar,
-            },
-        }))
+        .filter(seminar => {
+            const categories = Array.isArray(seminar?.category) ? seminar.category : [seminar?.category].filter(Boolean)
+            return categories.some(cat => cat?.label === category)
+        })
+        .map(seminar => {
+            // Get the first matching category for color
+            const categories = Array.isArray(seminar.category) ? seminar.category : [seminar.category].filter(Boolean)
+            const matchingCategory = categories.find(cat => cat?.label === category)
+            
+            return {
+                title: seminar.title,
+                start: seminar.startDatetime,
+                end: new Date(new Date(seminar.startDatetime).getTime() + seminar.duration * 1000 * 60),
+                url: `https://www.dm.unipi.it/en/seminar/?id=${seminar._id}`,
+                color: getSeminarCategoryColor(matchingCategory?.label),
+                extendedProps: {
+                    type: 'seminar',
+                    ...seminar,
+                },
+            }
+        })
 }
 
 export const DMCalendar = ({ endpoint, includes, queryEvents }) => {
